@@ -46,8 +46,12 @@
     "description": "Ready to push some digital boundaries? Drop us a line and let's create a website that makes people stop scrolling and start engaging.",
     "placeholder": "your mail",
     "button": "Start Your Project",
-    "emailText": "Or email us directly:",
-    "email": "{email}"
+    "messagePlaceholder": "Send a message",
+    "sendMessage": "Send",
+    "subjectPlaceholder": "Subject",
+    "validEmail": "Email is valid",
+    "invalidEmail": "Email is invalid",
+    "sendButton": "Send Email"
   },
   "projects": {
     "title1": "OUR",
