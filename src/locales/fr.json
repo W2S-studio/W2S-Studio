@@ -45,11 +45,9 @@
     "title3": "D'INCROYABLE",
     "description": "Prêt à repousser les limites du digital ? Contactez-nous et créons ensemble un site qui arrête le scroll et attire l'attention.",
     "placeholder": "votre courriel",
-    "button": "Commencer votre projet",
-    "emailText": "Ou écrivez-nous directement :",
-    "email": "{email}"
+    "button": "Commencer votre projet"
   },
-   "projects": {
+  "projects": {
     "title1": "NOS",
     "title2": "PROJETS",
     "description": "Une vitrine d’expériences numériques conçues avec passion, créativité et technologie de pointe.",
