@@ -49,6 +49,15 @@
     "emailText": "Ou écrivez-nous directement :",
     "email": "hello@w2s.studio"
   },
+   "projects": {
+    "title1": "NOS",
+    "title2": "PROJETS",
+    "description": "Une vitrine d’expériences numériques conçues avec passion, créativité et technologie de pointe.",
+    "noProjects": "Aucun projet à afficher pour le moment. Nous travaillons sur de nouveaux projets passionnants, revenez bientôt !",
+    "contactCta": "Contactez-nous pour démarrer un projet",
+    "viewAll": "Voir tous les projets",
+    "bottomCta": "Vous voulez voir votre projet ici ? Réalisons-le ensemble."
+  },
   "team": {
     "title1": "RENCONTREZ",
     "title2": "L'ÉQUIPE",

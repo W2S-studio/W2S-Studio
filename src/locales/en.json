@@ -49,6 +49,15 @@
     "emailText": "Or email us directly:",
     "email": "hello@w2s.studio"
   },
+  "projects": {
+    "title1": "OUR",
+    "title2": "PROJECTS",
+    "description": "A showcase of digital experiences we've crafted with passion, creativity, and cutting-edge technology.",
+    "noProjects": "No projects to display yet. We're working on some exciting new projects, so check back soon!",
+    "contactCta": "Contact Us to Start a Project",
+    "viewAll": "View All Projects",
+    "bottomCta": "Want to see your project here? Let's make it happen."
+  },
   "team": {
     "title1": "MEET THE",
     "title2": "TEAM",

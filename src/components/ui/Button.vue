@@ -1,7 +1,7 @@
 <template>
   <button :class="[
+
     'cursor-pointer font-semibold transition-all',
-    !disableHover && 'hover-scale', // Disable hover effect if true
 
     // Size
     size === 'sm' ? 'px-6 py-3 text-sm' :
@@ -11,7 +11,12 @@
     // Variant
     black
       ? 'bg-black text-white'
-      : 'bg-white text-black border-2 border-black hover:bg-black hover:text-white',
+      : disableHover
+        ? 'bg-white text-black border-2 border-black'
+        : 'bg-white text-black border-2 border-black hover:bg-black hover:text-white',
+
+    // Hover animation
+    !disableHover && 'hover-scale',
 
     // Roundness
     round ? 'rounded-lg' : 'rounded-none'
@@ -28,7 +33,7 @@
  * @prop {boolean} black - If true, button has black background; otherwise white.
  * @prop {'sm' | 'base' | 'lg'} size - Controls padding and font size. Defaults to 'base'.
  * @prop {boolean} round - If true, applies rounded corners to the button.
- * @prop {boolean} disableHover - If true, disables the hover-scale animation.
+ * @prop {boolean} disableHover - If true, disables all hover effects (color and scale).
  */
 defineProps({
   title: String,

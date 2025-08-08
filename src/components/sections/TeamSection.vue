@@ -74,7 +74,7 @@
             <div class="section-reveal text-center mt-16">
                 <p class="text-gray-400 mb-6">{{ $t('team.cta') }}</p>
               
-                <Button :title="$t('team.button')" :black="false" size="lg" />
+                <Button :title="$t('team.button')" :black="false" size="lg" :disableHover="true" />
             </div>
         </div>
     </section>
