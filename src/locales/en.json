@@ -44,10 +44,10 @@
     "title2": "SOMETHING",
     "title3": "INCREDIBLE",
     "description": "Ready to push some digital boundaries? Drop us a line and let's create a website that makes people stop scrolling and start engaging.",
-    "placeholder": "'your@email.com'",
+    "placeholder": "your mail",
     "button": "Start Your Project",
     "emailText": "Or email us directly:",
-    "email": "hello@w2s.studio"
+    "email": "{email}"
   },
   "projects": {
     "title1": "OUR",

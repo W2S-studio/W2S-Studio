@@ -44,10 +44,10 @@
     "title2": "QUELQUE CHOSE",
     "title3": "D'INCROYABLE",
     "description": "Prêt à repousser les limites du digital ? Contactez-nous et créons ensemble un site qui arrête le scroll et attire l'attention.",
-    "placeholder": "'votre@email.com'",
+    "placeholder": "votre courriel",
     "button": "Commencer votre projet",
     "emailText": "Ou écrivez-nous directement :",
-    "email": "hello@w2s.studio"
+    "email": "{email}"
   },
    "projects": {
     "title1": "NOS",
