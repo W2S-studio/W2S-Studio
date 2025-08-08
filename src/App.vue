@@ -4,44 +4,33 @@
 
 </template>
 
-<script setup>
-import { onMounted } from 'vue';
-import Home from './components/views/Home.vue';
-import { useGtag } from 'vue-gtag-next';
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import { useConsent, query } from 'vue-gtag'
 
-const { gtag, isEnabled, enable, disable } = useGtag();
+const { acceptAll, rejectAll } = useConsent()
+
+function applyConsentFromCookiebot() {
+  const raw = document.cookie.split('; ').find(r => r.startsWith('CookieConsent='))
+  if (!raw) return
+  const consentData = decodeURIComponent(raw.substring('CookieConsent='.length))
+  const statsAllowed = consentData.includes('statistics:true')
+
+  query('consent', 'update', { analytics_storage: statsAllowed ? 'granted' : 'denied' })
+
+  if (statsAllowed) acceptAll()
+  else rejectAll()
+}
 
 onMounted(() => {
-    const checkCookieConsent = () => {
-        const cookieConsent = document.cookie
-            .split('; ')
-            .find(row => row.startsWith('CookieConsent='));
-        
-        if (cookieConsent) {
-            const consentData = decodeURIComponent(cookieConsent);
-            
-            if (consentData.includes('statistics:true')) {
-                enable();
-                console.log('Google Analytics enabled after cookie consent.');
-            } else {
-                disable();
-                console.debug('Current cookie consent: ', consentData);
-                console.log('Google Analytics disabled - statistics not allowed.');
-            }
-        }
-    }
-
-    checkCookieConsent();
-    window.addEventListener('CookiebotOnAccept', () => {
-        console.log('Cookiebot accept event triggered');
-        checkCookieConsent();
-    });
-    
-    window.addEventListener('CookiebotOnDecline', () => {
-        console.log('Cookiebot decline event triggered');
-        disable();
-    });
-});
+  applyConsentFromCookiebot()
+  window.addEventListener('CookiebotOnAccept', applyConsentFromCookiebot)
+  window.addEventListener('CookiebotOnDecline', () => {
+    query('consent', 'update', { analytics_storage: 'denied' })
+    rejectAll()
+  })
+})
 </script>
+
 
 <style lang="scss" scoped></style>
