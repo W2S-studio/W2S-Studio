@@ -7,4 +7,8 @@ export default defineConfig({
   plugins: [vue(),
   tailwindcss(),
   ],
+  build: {
+    emptyOutDir: true,
+    outDir: './root'
+  }
 })
