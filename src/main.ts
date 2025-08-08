@@ -4,6 +4,7 @@ import { createI18n } from 'vue-i18n'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import App from './App.vue'
+import VueGtag from 'vue-gtag-next';
 import './style.css'
 import './style/global.css'
 
@@ -26,6 +27,14 @@ const app = createApp(App)
 
 // Ajout de i18n à l'app
 app.use(i18n)
+
+app.use(VueGtag, {
+  property: {
+    id: 'G-6X3CRVM124'
+  },
+  appName: 'W2S Studio',
+  isEnabled: false,
+})
 
 // Initialisation de AOS
 AOS.init({ once: true, offset: -50 })
