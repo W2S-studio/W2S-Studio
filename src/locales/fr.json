@@ -9,9 +9,9 @@
     "line1": "NOUS ALLONS",
     "line2": "VOUS FAIRE",
     "line3": "JOUER.",
-  "description1": "Studio de développement web créatif repoussant les limites du digital.",
-        "description2": "Nous créons des sites qui ne se contentent pas de fonctionner — ils ",
-        "highlight": "captivent",
+    "description1": "Studio de développement web créatif repoussant les limites du digital.",
+    "description2": "Nous créons des sites qui ne se contentent pas de fonctionner — ils ",
+    "highlight": "captivent",
     "cta": "Construisons quelque chose d'épique"
   },
   "about": {
@@ -48,6 +48,32 @@
     "button": "Commencer votre projet",
     "emailText": "Ou écrivez-nous directement :",
     "email": "hello@w2s.studio"
+  },
+   "projects": {
+    "title1": "NOS",
+    "title2": "PROJETS",
+    "description": "Une vitrine d’expériences numériques conçues avec passion, créativité et technologie de pointe.",
+    "noProjects": "Aucun projet à afficher pour le moment. Nous travaillons sur de nouveaux projets passionnants, revenez bientôt !",
+    "contactCta": "Contactez-nous pour démarrer un projet",
+    "viewAll": "Voir tous les projets",
+    "bottomCta": "Vous voulez voir votre projet ici ? Réalisons-le ensemble."
+  },
+  "team": {
+    "title1": "RENCONTREZ",
+    "title2": "L'ÉQUIPE",
+    "description": "Les esprits créatifs derrière chaque pixel, chaque ligne de code et chaque expérience numérique que nous concevons.",
+    "william": {
+      "name": "William Beaudin",
+      "role": "Chef d'équipe et cofondateur",
+      "bio": "Développeur full-stack spécialisé dans les technologies web modernes. Passionné par la création d'expériences numériques fluides."
+    },
+    "samuel": {
+      "name": "Samuel Courchesne",
+      "role": "Directeur créatif et cofondateur",
+      "bio": "Développeur full-stack avec une forte expertise en front-end. Allie précision technique et design centré sur l'utilisateur pour offrir des expériences numériques de haute qualité."
+    },
+    "cta": "Envie de rejoindre notre aventure créative ?",
+    "button": "Nous recrutons"
   },
   "footer": {
     "copyright": "w2s Studio. Transformer les idées en réalités digitales.",

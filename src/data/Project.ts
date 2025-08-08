@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 1,
+    key: 'e-commerce',
     title: 'E-Commerce Platform',
     description: 'Modern online store with seamless checkout experience and inventory management',
     imageLink: 'src/assets/image.jpg',
@@ -31,6 +32,7 @@ export const projects = [
   {
     id: 2,
     title: 'SaaS Dashboard',
+    key: 'saas-dashboard',
     description: 'Analytics platform with real-time data visualization and AI insights',
     imageLink: 'src/assets/image.jpg',
     tags: ['Vue.js', 'D3.js', 'MongoDB'],
@@ -62,6 +64,7 @@ export const projects = [
   {
     id: 3,
     title: 'Creative Portfolio',
+    key: 'creative-portfolio',
     description: 'Award-winning portfolio with smooth animations and 3D interactions',
     imageLink: 'src/assets/image.jpg',
     tags: ['Next.js', 'Three.js', 'GSAP'],
@@ -96,6 +99,7 @@ export const projects = [
   {
     id: 4,
     title: 'Mobile App',
+    key: 'mobile-app',
     description: 'Cross-platform mobile app with native performance and offline support',
     imageLink: 'src/assets/image.jpg',
     tags: ['React Native', 'Firebase', 'Redux'],
@@ -128,6 +132,7 @@ export const projects = [
   {
     id: 5,
     title: 'AI-Powered Tool',
+    key: 'ai-tool',
     description: 'Machine learning platform for content optimization and automation',
     imageLink: 'src/assets/image.jpg',
     tags: ['Python', 'TensorFlow', 'FastAPI'],
@@ -161,6 +166,7 @@ export const projects = [
   {
     id: 6,
     title: 'Corporate Website',
+    key: 'corporate-website',
     description: 'Professional website with headless CMS and advanced SEO optimization',
     imageLink: 'src/assets/image.jpg',
     tags: ['Gatsby', 'Strapi', 'GraphQL'],

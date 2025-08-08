@@ -14,7 +14,7 @@
                      {{ $t('hero.description2') }}<span class="typing-cursor font-semibold">{{ $t('hero.highlight') }}</span>
                 </p>
 
-                <Button :title="t('hero.cta')" :black="false" size="lg" round="true" />
+                <Button :title="t('hero.cta')" :black="false" size="lg" :round="true" />
             </div>
         </div>
 
