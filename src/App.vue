@@ -18,7 +18,7 @@ onMounted(() => {
             .find(row => row.startsWith('CookieConsent='));
         
         if (cookieConsent) {
-            const consentData = decodeURIComponent(cookieConsent.split('=')[1]);
+            const consentData = decodeURIComponent(cookieConsent);
             
             if (consentData.includes('statistics:true')) {
                 enable();
