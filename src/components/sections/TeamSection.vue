@@ -2,12 +2,12 @@
     <section id="team" class="py-32 bg-black relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal text-center mb-20">
-                <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight text-white">
+                <h2 class="text-4xl sm:text-6xl font-black mb-8 leading-tight text-white">
                     {{ $t('team.title1') }}<br>
                     <span class="text-gray-400">{{ $t('team.title2') }}</span>
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                  {{ $t('team.description') }}
+                    {{ $t('team.description') }}
                 </p>
             </div>
 
@@ -73,7 +73,7 @@
 
             <div class="section-reveal text-center mt-16">
                 <p class="text-gray-400 mb-6">{{ $t('team.cta') }}</p>
-              
+
                 <Button :title="$t('team.button')" :black="false" size="lg" :disableHover="true" />
             </div>
         </div>

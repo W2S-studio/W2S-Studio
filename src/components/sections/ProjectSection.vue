@@ -2,7 +2,7 @@
     <section id="projects" class="py-32 bg-white relative max-w-7xl mx-auto px-6">
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal text-center mb-20">
-                <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight text-black">
+                <h2 class="text-4xl sm:text-6xl font-black mb-8 leading-tight text-black">
                     {{ t('projects.title1') }}<br />
                     <span class="text-gray-500">{{ t('projects.title2') }}</span>
                 </h2>

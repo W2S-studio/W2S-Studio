@@ -2,7 +2,7 @@
   <section id="contact" class="py-32 bg-white relative">
     <div class="max-w-7xl mx-auto px-6">
       <div class="section-reveal text-center">
-        <h2 class="text-5xl md:text-7xl font-black mb-8 leading-tight">
+        <h2 class="text-4xl sm:text-6xl font-black mb-8 leading-tight">
           {{ t('contact.title1') }}<br />
           <span class="text-gradient">{{ t('contact.title2') }}</span><br />
           {{ t('contact.title3') }}

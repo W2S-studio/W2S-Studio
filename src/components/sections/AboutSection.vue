@@ -3,15 +3,15 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal grid lg:grid-cols-2 gap-20 items-center">
                 <div class="parallax-scroll">
-                    <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight">
+                    <h2 class="text-4xl sm:text-6xl font-black mb-8 leading-tight text-center lg:text-start">
                         {{ $t('about.title1') }}<br>
                         {{ $t('about.title2') }}<br>
                         <span class="text-gray-400">{{ $t('about.title3') }}</span>
                     </h2>
-                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed text-center lg:text-start">
                         {{ $t('about.description') }}
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start ">
                         <Button :title="t('about.btnProcess')" :black="true" />
 
                         <Button :title="t('about.btnWork')" :black="false" />
