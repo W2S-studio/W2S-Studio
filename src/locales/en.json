@@ -49,6 +49,23 @@
     "emailText": "Or email us directly:",
     "email": "hello@w2s.studio"
   },
+  "team": {
+    "title1": "MEET THE",
+    "title2": "TEAM",
+    "description": "The creative minds behind every pixel, every line of code, and every digital experience we craft.",
+    "william": {
+      "name": "William Beaudin",
+      "role": "Team Lead & Co-Founder",
+      "bio": "Full-stack developer with expertise in modern web technologies. Passionate about creating seamless digital experiences."
+    },
+    "samuel": {
+      "name": "Samuel Courchesne",
+      "role": "Creative Director & Co-Founder",
+      "bio": "Full-stack developer with a strong focus on front-end technologies. Combining technical precision with user-centered design to deliver high-quality digital experiences."
+    },
+    "cta": "Want to join our creative journey?",
+    "button": "We're Hiring"
+  },
   "footer": {
     "copyright": "w2s Studio. Transforming ideas into digital reality.",
     "slogan": "We don't just build websites, we craft digital experiences.",

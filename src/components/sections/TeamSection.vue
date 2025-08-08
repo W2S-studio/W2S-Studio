@@ -3,11 +3,11 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal text-center mb-20">
                 <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight text-white">
-                    MEET THE<br>
-                    <span class="text-gray-400">TEAM</span>
+                    {{ $t('team.title1') }}<br>
+                    <span class="text-gray-400">{{ $t('team.title2') }}</span>
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    The creative minds behind every pixel, every line of code, and every digital experience we craft.
+                  {{ $t('team.description') }}
                 </p>
             </div>
 
@@ -21,11 +21,10 @@
                                 alt="William Beaudin" class="profile-image" />
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold mb-2 text-white">William Beaudin</h3>
-                    <p class="text-gray-400 mb-3">Team Lead & Co-Founder</p>
+                    <h3 class="text-2xl font-bold mb-2 text-white">{{ $t('team.william.name') }}</h3>
+                    <p class="text-gray-400 mb-3">{{ $t('team.william.role') }}</p>
                     <p class="text-gray-500 text-sm mb-4 leading-relaxed">
-                        Full-stack developer with expertise in modern web technologies.
-                        Passionate about creating seamless digital experiences.
+                        {{ $t('team.william.bio') }}
                     </p>
                     <div class="flex justify-center space-x-4 text-gray-400">
                         <a href="#" class="hover:text-white transition-colors">
@@ -50,11 +49,10 @@
                                 alt="William Beaudin" class="profile-image" />
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold mb-2 text-white">Samuel Courchesne</h3>
-                    <p class="text-gray-400 mb-3">Creative Director & Co-Founder</p>
+                    <h3 class="text-2xl font-bold mb-2 text-white"> {{ $t('team.samuel.name') }}</h3>
+                    <p class="text-gray-400 mb-3">{{ $t('team.samuel.role') }}</p>
                     <p class="text-gray-500 text-sm mb-4 leading-relaxed">
-                        Full-stack developer with a strong focus on front-end technologies. combining technical
-                        precision with user-centered design to deliver high-quality digital experiences.
+                        {{ $t('team.samuel.bio') }}
                     </p>
                     <div class="flex justify-center space-x-4 text-gray-400">
                         <a href="#" class="hover:text-white transition-colors">
@@ -74,17 +72,16 @@
             </div>
 
             <div class="section-reveal text-center mt-16">
-                <p class="text-gray-400 mb-6">Want to join our creative journey?</p>
-                <button class="bg-white text-black px-8 py-4 font-semibold hover-scale transition-all">
-                    We're Hiring
-                </button>
+                <p class="text-gray-400 mb-6">{{ $t('team.cta') }}</p>
+              
+                <Button :title="$t('team.button')" :black="false" size="lg" />
             </div>
         </div>
     </section>
 </template>
 
 <script setup>
-
+import Button from '../ui/Button.vue';
 </script>
 
 <style lang="css" scoped>
