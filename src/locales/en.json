@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "work": "WORK",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "line1": "WE'RE",
+    "line2": "GOING TO",
+    "line3": "PLAY.",
+    "description1": "Creative web development studio pushing digital boundaries.",
+    "description2": "We craft websites that don't just function—they ",
+    "highlight": "captivate",
+    "cta": "Let's Build Something Epic"
+  },
+  "about": {
+    "title1": "WE DON'T",
+    "title2": "JUST ASK",
+    "title3": "OUR MOMS.",
+    "description": "We're a web development studio that believes in the power of digital play. Every website we build is an opportunity to push creative boundaries and create something that makes users go \"whoa, how'd they do that?\"",
+    "btnProcess": "Our Process",
+    "btnWork": "View Our Work"
+  },
+  "work": {
+    "title1": "WHAT WE",
+    "title2": "CRAFT DIGITALLY",
+    "description": "From concept to deployment, we build web experiences that perform as beautifully as they look.",
+    "customWebsites": {
+      "title": "Custom Websites",
+      "description": "Bespoke web solutions tailored to your brand's unique personality and goals."
+    },
+    "performance": {
+      "title": "Performance Optimization",
+      "description": "Lightning-fast websites that load before your users can blink twice."
+    },
+    "webApps": {
+      "title": "Web Applications",
+      "description": "Complex web apps that handle your business logic with elegance and power."
+    }
+  },
+  "contact": {
+    "title1": "LET'S BUILD",
+    "title2": "SOMETHING",
+    "title3": "INCREDIBLE",
+    "description": "Ready to push some digital boundaries? Drop us a line and let's create a website that makes people stop scrolling and start engaging.",
+    "placeholder": "'your@email.com'",
+    "button": "Start Your Project",
+    "emailText": "Or email us directly:",
+    "email": "hello@w2s.studio"
+  },
+  "footer": {
+    "copyright": "w2s Studio. Transforming ideas into digital reality.",
+    "slogan": "We don't just build websites, we craft digital experiences.",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  }
+}
