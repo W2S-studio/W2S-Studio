@@ -18,21 +18,28 @@ onMounted(() => {
             .find(row => row.startsWith('CookieConsent='));
         
         if (cookieConsent) {
-            const consentData = cookieConsent.split('=')[1];
+            const consentData = decodeURIComponent(cookieConsent.split('=')[1]);
             
             if (consentData.includes('statistics:true')) {
                 enable();
                 console.log('Google Analytics enabled after cookie consent.');
             } else {
                 disable();
+                console.debug('Current cookie consent: ', consentData);
                 console.log('Google Analytics disabled - statistics not allowed.');
             }
         }
     }
 
     checkCookieConsent();
-    window.addEventListener('CookieYesUpdated', () => {
+    window.addEventListener('CookiebotOnAccept', () => {
+        console.log('Cookiebot accept event triggered');
         checkCookieConsent();
+    });
+    
+    window.addEventListener('CookiebotOnDecline', () => {
+        console.log('Cookiebot decline event triggered');
+        disable();
     });
 });
 </script>
