@@ -21,7 +21,6 @@
             </div>
         </div>
 
-        <!-- Overlay Content -->
         <div class="project-overlay">
             <h4 class="text-xl font-bold mb-4">{{ project.overlayTitle }}</h4>
             <p class="text-sm mb-4 opacity-90">{{ project.overlayDescription }}</p>
