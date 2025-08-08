@@ -3,15 +3,15 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal grid lg:grid-cols-2 gap-20 items-center">
                 <div class="parallax-scroll" data-aos="fade-up" data-aos-duration="700" data-speed="0.2">
-                    <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight" data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
+                    <h2 class="text-5xl md:text-6xl font-black mb-8 leading-tight text-center lg:text-start" data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                         {{ $t('about.title1') }}<br>
                         {{ $t('about.title2') }}<br>
                         <span class="text-gray-400">{{ $t('about.title3') }}</span>
                     </h2>
-                    <p class="text-xl text-gray-600 mb-8 leading-relaxed" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed text-center lg:text-start" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
                         {{ $t('about.description') }}
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
                         <Button :title="t('about.btnProcess')" :black="true" />
                         <Button :title="t('about.btnWork')" :black="false" />
                     </div>

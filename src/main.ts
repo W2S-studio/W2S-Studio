@@ -26,8 +26,9 @@ const app = createApp(App)
 
 // Ajout de i18n à l'app
 app.use(i18n)
-// Ajout de AOS
-app.use(AOS.init({ once: true, offset: -50 }))
+
+// Initialisation de AOS
+AOS.init({ once: true, offset: -50 })
 
 // Montage final
 app.mount('#app')
