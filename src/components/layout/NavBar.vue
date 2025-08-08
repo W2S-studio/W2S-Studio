@@ -8,10 +8,10 @@
 
                 <!-- Desktop nav -->
                 <div class="hidden md:flex space-x-8 text-sm font-medium">
-                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">Home</a>
-                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">About</a>
-                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">Work</a>
-                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">Contact</a>
+                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
+                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
+                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
                 </div>
 
                 <!-- Burger avec animation -->
