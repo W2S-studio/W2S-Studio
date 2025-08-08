@@ -1,32 +1,50 @@
 <template>
-    <section id="projects" class="py-32 bg-white relative max-w-7xl mx-auto px-6">
+    <section id="projects" class="py-16 bg-white relative max-w-7xl mx-auto px-4">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="section-reveal text-center mb-20">
-                <h2 class="text-4xl sm:text-6xl font-black mb-8 leading-tight text-black">
+            <div class="section-reveal text-center mb-8">
+                <h2 class="text-5xl md:text-6xl font-black mb-4 leading-tight text-black"
+                    data-aos="fade-up" 
+                    data-aos-duration="800" 
+                    data-aos-delay="0">
                     {{ t('projects.title1') }}<br />
                     <span class="text-gray-500">{{ t('projects.title2') }}</span>
                 </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto"
+                   data-aos="fade-up" 
+                   data-aos-duration="700" 
+                   data-aos-delay="200">
                     {{ t('projects.description') }}
                 </p>
             </div>
         </div>
 
-        <div v-if="projects.length > 0" class="section-reveal grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <HomeProjectCard v-for="project in projects" :key="project.id" :project="project" />
+        <div v-if="projects.length > 0" class="section-reveal grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div v-for="(project, index) in projects" 
+                 :key="project.id"
+                 data-aos="fade-up" 
+                 :data-aos-duration="600" 
+                 :data-aos-delay="300 + (index * 150)">
+                <HomeProjectCard :project="project" />
+            </div>
         </div>
 
-        <div v-else class="section-reveal text-center">
+        <div v-else class="section-reveal text-center"
+             data-aos="fade-up" 
+             data-aos-duration="700" 
+             data-aos-delay="300">
             <p class="text-lg text-gray-600 mb-8">
                 {{ t('projects.noProjects') }}
             </p>
-            <button class="bg-black text-white px-8 py-4 font-semibold hover:scale-105 transition-all">
+            <button class="bg-black text-white px-8 py-4 font-semibold hover:scale-105 transition-all duration-300">
                 {{ t('projects.contactCta') }}
             </button>
         </div>
 
-        <div class="section-reveal text-center mt-16">
-            <button class="bg-black text-white px-8 py-4 font-semibold hover-scale transition-all">
+        <div class="section-reveal text-center mt-16"
+             data-aos="fade-up" 
+             data-aos-duration="600" 
+             data-aos-delay="500">
+            <button class="bg-black text-white px-8 py-4 font-semibold cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 {{ t('projects.viewAll') }}
             </button>
             <p class="mt-4 text-gray-500 text-sm">

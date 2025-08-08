@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "aos": "^2.3.4",
     "vue": "^3.5.18",
     "vue-i18n": "^11.1.11"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^24.2.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
