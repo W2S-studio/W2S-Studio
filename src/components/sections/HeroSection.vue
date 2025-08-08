@@ -124,14 +124,6 @@ import Button from '../ui/Button.vue';
     }
 }
 
-.hover-scale {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover-scale:hover {
-    transform: scale(1.05);
-}
-
 .sleek-card {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -144,6 +136,4 @@ import Button from '../ui/Button.vue';
     border-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
 }
-
-
 </style>
