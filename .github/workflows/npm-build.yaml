@@ -1,41 +1,35 @@
 name: Auto Build on Dev
 
-# Trigger the workflow on push or pull request to dev branch
 on:
   push:
-    branches: [ dev, main ]
+    branches: [ dev ]
   pull_request:
-    branches: [ dev, main ]
+    branches: [ dev ]
 
 jobs:
   build-and-commit:
     runs-on: ubuntu-latest
     
     steps:
-    # Checkout the repository code
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        # Use a token that can push back to the repo
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
 
-    # Setup Node.js environment
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '22'
+        node-version: '18'
         cache: 'npm'
 
-    # Install dependencies
     - name: Install dependencies
       run: npm ci
 
-    # Run the build command
     - name: Build project
-      run: npm run build
+      run: |
+        npm run build
 
-    # Check if there are any changes in the build output
     - name: Check for changes
       id: verify-changed-files
       run: |
@@ -45,7 +39,6 @@ jobs:
           echo "changed=false" >> $GITHUB_OUTPUT
         fi
 
-    # Commit and push the build files if there are changes
     - name: Commit build files
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
