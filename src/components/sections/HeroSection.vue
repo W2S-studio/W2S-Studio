@@ -2,7 +2,7 @@
     <section id="home" role="banner" aria-label="Hero Section" class="min-h-screen flex items-center justify-center hero-gradient relative">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
             <div>
-                <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 leading-none">
+                <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 mt-20 leading-none hero-title">
                     <span class="block slide-in-stagger delay-1">{{ $t('hero.line1') }}</span>
                     <span class="block slide-in-stagger delay-2 text-gradient">{{ $t('hero.line2') }}</span>
                     <span class="block slide-in-stagger delay-3">{{ $t('hero.line3') }}</span>
@@ -136,4 +136,6 @@ import Button from '../ui/Button.vue';
     border-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
 }
+
+
 </style>
