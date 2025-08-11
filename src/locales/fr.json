@@ -46,7 +46,13 @@
     "title3": "D'INCROYABLE",
     "description": "Prêt à repousser les limites du digital ? Contactez-nous et créons ensemble un site qui arrête le scroll et attire l'attention.",
     "placeholder": "votre courriel",
-    "button": "Commencer votre projet"
+    "button": "Commencer votre projet",
+    "messagePlaceholder": "Envoyer un message",
+    "sendMessage": "Envoyer",
+    "subjectPlaceholder": "Sujet",
+    "validEmail": "L'adresse e-mail est valide",
+    "invalidEmail": "L'adresse e-mail est invalide",
+    "sendButton": "Envoyer l'e-mail"
   },
   "projects": {
     "title1": "NOS",
