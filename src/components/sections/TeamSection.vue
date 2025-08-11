@@ -18,7 +18,6 @@
             </div>
 
             <div class="section-reveal grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-                <!-- Team Member 1 - William -->
                 <div class="text-center group"
                      data-aos="fade-up" 
                      data-aos-duration="700" 
@@ -50,7 +49,6 @@
                     </div>
                 </div>
 
-                <!-- Team Member 2 - Samuel -->
                 <div class="text-center group"
                      data-aos="fade-up" 
                      data-aos-duration="700" 
@@ -89,7 +87,7 @@
                  data-aos-delay="600">
                 <p class="text-gray-400 mb-6">{{ $t('team.cta') }}</p>
 
-                <Button :title="$t('team.button')" :black="false" size="lg" :disableHover="true" />
+                <Button class="hover:scale-105" :title="$t('team.button')" :black="false" size="lg" :disableHover="true" />
             </div>
         </div>
     </section>

@@ -35,7 +35,7 @@
             <p class="text-lg text-gray-600 mb-8">
                 {{ t('projects.noProjects') }}
             </p>
-            <button class="bg-black text-white px-8 py-4 font-semibold hover:scale-105 transition-all duration-300">
+            <button class="bg-black text-white px-8 py-4 cursor-pointer font-semibold hover:scale-105 transition-all duration-300">
                 {{ t('projects.contactCta') }}
             </button>
         </div>
@@ -44,7 +44,7 @@
              data-aos="fade-up" 
              data-aos-duration="600" 
              data-aos-delay="500">
-            <button class="bg-black text-white px-8 py-4 font-semibold cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
+            <button v-if="projects.length > 0" class="bg-black text-white px-8 py-4 font-semibold cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 {{ t('projects.viewAll') }}
             </button>
             <p class="mt-4 text-gray-500 text-sm">
