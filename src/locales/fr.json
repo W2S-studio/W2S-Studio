@@ -2,87 +2,87 @@
   "nav": {
     "home": "ACCUEIL",
     "about": "À PROPOS",
-    "work": "TRAVAUX",
-    "contact": "CONTACT",
+    "work": "PROJETS",
+    "contact": "CONTACT"
     "language": "LANGUE"
   },
   "hero": {
-    "line1": "NOUS ALLONS",
+    "line1": "ON VA",
     "line2": "VOUS FAIRE",
-    "line3": "JOUER.",
-    "description1": "Studio de développement web créatif repoussant les limites du digital.",
-    "description2": "Nous créons des sites qui ne se contentent pas de fonctionner — ils ",
-    "highlight": "captivent",
-    "cta": "Construisons quelque chose d'épique"
+    "line3": "VIBRER.",
+    "description1": "Studio web créatif qui repousse les limites du digital.",
+    "description2": "Nos sites ne font pas que fonctionner — ils ",
+    "highlight": "marquent",
+    "cta": "Créons du spectaculaire"
   },
   "about": {
     "title1": "ON NE FAIT PAS",
-    "title2": "QUE DEMANDER",
-    "title3": "À NOS MÈRES.",
-    "description": "Nous sommes un studio de développement web qui croit au pouvoir du jeu numérique. Chaque site que nous construisons est une occasion de repousser les limites créatives et de faire dire aux utilisateurs : « wow, comment ils ont fait ça ? »",
-    "btnProcess": "Notre Processus",
-    "btnWork": "Voir Nos Réalisations"
+    "title2": "DU BANAL",
+    "title3": "ICI.",
+    "description": "Studio web qui mise sur l'audace digitale. Chaque site est conçu pour surprendre et faire dire : « comment ils ont fait ça ? »",
+    "btnProcess": "Notre méthode",
+    "btnWork": "Nos créations"
   },
   "work": {
-    "title1": "CE QUE NOUS",
-    "title2": "CRÉONS NUMÉRIQUEMENT",
-    "description": "Du concept au déploiement, nous créons des expériences web aussi performantes que belles.",
+    "title1": "CE QU'ON",
+    "title2": "CRÉE",
+    "description": "Du concept au lancement, des expériences web performantes et marquantes.",
     "customWebsites": {
-      "title": "Sites Web Sur Mesure",
-      "description": "Des solutions web personnalisées adaptées à la personnalité unique de votre marque."
+      "title": "Sites sur mesure",
+      "description": "Solutions web uniques adaptées à votre marque."
     },
     "performance": {
-      "title": "Optimisation des Performances",
-      "description": "Des sites ultra-rapides qui se chargent avant même que vos utilisateurs ne clignent des yeux."
+      "title": "Performance optimale",
+      "description": "Sites ultra-rapides qui chargent instantanément."
     },
     "webApps": {
-      "title": "Applications Web",
-      "description": "Des applications complexes qui gèrent votre logique métier avec élégance et puissance."
+      "title": "Applications web",
+      "description": "Apps complexes, élégantes et puissantes."
     }
   },
   "contact": {
-    "title1": "CONSTRUISONS",
+    "title1": "CRÉONS",
     "title2": "QUELQUE CHOSE",
-    "title3": "D'INCROYABLE",
-    "description": "Prêt à repousser les limites du digital ? Contactez-nous et créons ensemble un site qui arrête le scroll et attire l'attention.",
-    "placeholder": "votre courriel",
-    "button": "Commencer votre projet",
-    "messagePlaceholder": "Envoyer un message",
+    "title3": "D'UNIQUE",
+    "description": "Prêt à marquer les esprits ? Contactez-nous pour un site qui arrête le scroll.",
+    "placeholder": "votre email",
+    "button": "Démarrer le projet",
+    "messagePlaceholder": "Votre message",
     "sendMessage": "Envoyer",
     "subjectPlaceholder": "Sujet",
-    "validEmail": "L'adresse e-mail est valide",
-    "invalidEmail": "L'adresse e-mail est invalide",
-    "sendButton": "Envoyer l'e-mail"
+    "validEmail": "Email valide",
+    "invalidEmail": "Email invalide",
+    "sendButton": "Envoyer"
   },
   "projects": {
     "title1": "NOS",
-    "title2": "PROJETS",
-    "description": "Une vitrine d’expériences numériques conçues avec passion, créativité et technologie de pointe.",
-    "noProjects": "Aucun projet à afficher pour le moment. Nous travaillons sur de nouveaux projets passionnants, revenez bientôt !",
-    "contactCta": "Contactez-nous pour démarrer un projet",
-    "viewAll": "Voir tous les projets",
-    "bottomCta": "Vous voulez voir votre projet ici ? Réalisons-le ensemble."
+    "title2": "CRÉATIONS",
+    "description": "Expériences digitales conçues avec passion et techno de pointe.",
+    "noProjects": "Nouveaux projets en cours. Revenez bientôt !",
+    "contactCta": "Démarrer un projet",
+    "viewAll": "Tout voir",
+    "bottomCta": "Votre projet ici ? Faisons-le ensemble."
   },
   "team": {
-    "title1": "RENCONTREZ",
-    "title2": "L'ÉQUIPE",
-    "description": "Les esprits créatifs derrière chaque pixel, chaque ligne de code et chaque expérience numérique que nous concevons.",
+    "title1": "NOTRE",
+    "title2": "ÉQUIPE",
+    "description": "Les créatifs derrière chaque pixel et ligne de code.",
     "william": {
       "name": "William Beaudin",
-      "role": "Chef d'équipe et cofondateur",
-      "bio": "Développeur full-stack spécialisé dans les technologies web modernes. Passionné par la création d'expériences numériques fluides."
+      "role": "Lead & Co-fondateur",
+      "bio": "Dev full-stack expert en tech modernes. Passionné par les expériences digitales fluides."
     },
     "samuel": {
       "name": "Samuel Courchesne",
-      "role": "Directeur créatif et cofondateur",
-      "bio": "Développeur full-stack avec une forte expertise en front-end. Allie précision technique et design centré sur l'utilisateur pour offrir des expériences numériques de haute qualité."
+      "role": "Directeur créatif & Co-fondateur",
+      "bio": "Dev full-stack spécialisé front-end. Précision technique et design centré utilisateur."
     },
-    "cta": "Envie de rejoindre notre aventure créative ?",
-    "button": "Nous recrutons"
+    "cta": "Rejoindre l'aventure ?",
+    "button": "On recrute"
   },
   "footer": {
-    "copyright": "w2s Studio. Transformer les idées en réalités digitales.",
-    "slogan": "Nous ne construisons pas que des sites web, nous créons des expériences digitales.",
+    "copyright": "w2s Studio. Les idées prennent vie ici.",
+    "slogan": "On ne fait pas que des sites, on crée des expériences.",
     "social": {
       "instagram": "Instagram",
       "twitter": "Twitter",
