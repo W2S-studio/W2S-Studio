@@ -3,7 +3,8 @@
     "home": "HOME",
     "about": "ABOUT",
     "work": "WORK",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "language": "LANGUAGE"
   },
   "hero": {
     "line1": "WE'RE",
