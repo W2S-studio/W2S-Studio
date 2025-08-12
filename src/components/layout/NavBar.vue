@@ -19,7 +19,6 @@
 
                     <div class="language-selector" @click.away="closeDropdown">
                         <button class="language-button" @click="toggleDropdown">
-                            <span class="flag-icon">{{ selectedLanguage.flag }}</span>
                             <span>{{ selectedLanguage.name }}</span>
                             <svg class="dropdown-arrow" :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor">
@@ -31,7 +30,6 @@
                             <div class="language-option" v-for="language in languages" :key="language.code"
                                 :class="{ 'selected': language.code === selectedLanguage.code }"
                                 @click="selectLanguage(language)">
-                                <span class="flag-icon">{{ language.flag }}</span>
                                 <span>{{ language.name }}</span>
                                 <svg v-if="language.code === selectedLanguage.code" class="check-icon"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -204,11 +202,6 @@ const selectLanguage = (language) => {
 
 .language-option:hover::before {
     left: 100%;
-}
-
-.flag-icon {
-    font-size: 16px;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
 }
 
 /* Mobile Language Selector */
