@@ -62,11 +62,11 @@
                         <!-- Language selector mobile -->
                         <div class="mobile-language-selector">
                             <div class="language-option mobile">
-                                <span class="flag-icon">🇫🇷</span>
+                          
                                 <span>Français</span>
                             </div>
                             <div class="language-option mobile">
-                                <span class="flag-icon">🇺🇸</span>
+                               
                                 <span>English</span>
                             </div>
                         </div>
