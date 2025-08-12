@@ -53,6 +53,7 @@
     "description": "Une vitrine d’expériences numériques conçues avec passion, créativité et technologie de pointe.",
     "noProjects": "Aucun projet à afficher pour le moment. Nous travaillons sur de nouveaux projets passionnants, revenez bientôt !",
     "contactCta": "Contactez-nous pour démarrer un projet",
+    "projectSeeMoreButton": "En savoir plus",
     "viewAll": "Voir tous les projets",
     "bottomCta": "Vous voulez voir votre projet ici ? Réalisons-le ensemble."
   },
@@ -81,6 +82,48 @@
       "twitter": "Twitter",
       "linkedin": "LinkedIn",
       "github": "GitHub"
+    }
+  },
+  "project": {
+    "e-commerce": {
+      "overlayDescription": "Une solution complète de commerce électronique conçue pour une marque de mode en pleine expansion. Les fonctionnalités comprennent le suivi des stocks en temps réel, des analyses avancées et des recommandations de produits alimentées par l'IA.",
+      "description": "Une boutique en ligne moderne avec une expérience de paiement et une gestion des stocks transparentes",
+      "stats": {
+        "1": "Terminé en 8 semaines",
+        "2": "Plus de 50 000 utilisateurs mensuels",
+        "3": "98,5 % de temps de fonctionnement"
+      },
+      "title": "Plate-forme de commerce électronique"
+    },
+    "portfolio": {
+      "title": "Portefeuille personnel",
+      "overlayDescription": "Un portfolio dynamique conçu pour mettre en valeur la créativité d'un designer grâce à des animations fluides et des mises en page réactives.",
+      "description": "Site portfolio élégant présentant le travail d'un designer avec des éléments interactifs",
+      "stats": {
+        "1": "Terminé en 4 semaines",
+        "2": "10K+ visites",
+        "3": "Compatibilité mobile à 99"
+      }
+    },
+    "blog-platform": {
+      "title": "Plateforme de blogs",
+      "overlayDescription": "Une plateforme de blogs riche en fonctionnalités permettant aux utilisateurs de créer, de gérer et de monétiser leur contenu en toute simplicité.",
+      "description": "Système de blog robuste avec authentification de l'utilisateur et gestion du contenu",
+      "stats": {
+        "1": "Terminé en 6 semaines",
+        "2": "20K+ posts",
+        "3": "95% de satisfaction des utilisateurs"
+      }
+    },
+    "dashboard": {
+      "title": "Tableau de bord analytique",
+      "overlayDescription": "Un outil d'analyse puissant offrant une visualisation des données en temps réel et des rapports personnalisables.",
+      "description": "Tableau de bord interactif pour des analyses et des rapports en temps réel",
+      "stats": {
+        "1": "Terminé en 10 semaines",
+        "2": "30K+ points de données",
+        "3": "Précision des données à 99,9"
+      }
     }
   }
 }
