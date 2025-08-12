@@ -1,0 +1,52 @@
+name: Auto Build on Dev
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  push:
+    branches: [ dev, main ]
+  pull_request:
+    branches: [ dev, main ]
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.ADMIN_PAT }}
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22.16.0'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build project
+      run: npm run build
+
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit build files
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/
+        git commit -m "Auto build: Update build files [skip ci]"
+        git push
