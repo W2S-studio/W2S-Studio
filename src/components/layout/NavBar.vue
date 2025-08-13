@@ -104,10 +104,11 @@
 </template>
 <script setup>
 import { onClickOutside } from '@vueuse/core'
-import { ref, reactive, useTemplateRef } from 'vue'
+import { ref, reactive, useTemplateRef, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const isOpen = ref(false);
+let scrollY = 0;
 const languageDropdownRef = useTemplateRef('languageDropdown');
 const { locale, t } = useI18n();
 
@@ -137,6 +138,24 @@ const selectLanguage = (language) => {
 }
 
 onClickOutside(languageDropdownRef, closeDropdown);
+
+watch(isOpen, (value) => {
+    if (value) {
+        scrollY = window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollY}px`;
+        document.body.style.left = '0';
+        document.body.style.right = '0';
+        document.body.style.width = '100%';
+    } else {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.left = '';
+        document.body.style.right = '';
+        document.body.style.width = '';
+        window.scrollTo(0, scrollY);
+    }
+});
 </script>
 
 <style scoped>
