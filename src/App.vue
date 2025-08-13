@@ -1,11 +1,9 @@
 <template>
-
-    <Home></Home>
-
+  <Home />
 </template>
 
-<script setup>
-import Home from './components/views/Home.vue';
+<script setup lang="ts">
+import Home from './components/views/Home.vue'
 </script>
 
 <style lang="scss" scoped></style>

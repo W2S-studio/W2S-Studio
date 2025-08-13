@@ -4,15 +4,14 @@
         <div
             class="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative overflow-hidden">
             <div class="text-6xl font-black text-gray-400">
-                <img :src="project.imageLink"
-                    alt="" srcset="">
+                <img :src="project.imageLink" alt="" srcset="">
             </div>
         </div>
 
         <!-- Main Content -->
         <div class="project-main-content p-6">
-            <h3 class="text-xl font-bold text-black mb-2">{{ project.title }}</h3>
-            <p class="text-gray-600 text-sm mb-4">{{ project.description }}</p>
+            <h3 class="text-xl font-bold text-black mb-2">{{ $t(`project.${project.key}.title`) }}</h3>
+            <p class="text-gray-600 text-sm mb-4">{{ $t(`project.${project.key}.description`) }}</p>
             <div class="flex flex-wrap gap-2 mb-3">
                 <span v-for="tag in project.tags" :key="tag"
                     class="px-2 py-1 bg-gray-200 text-gray-700 text-xs rounded font-medium">
@@ -22,15 +21,15 @@
         </div>
 
         <div class="project-overlay">
-            <h4 class="text-xl font-bold mb-4">{{ project.overlayTitle }}</h4>
-            <p class="text-sm mb-4 opacity-90">{{ project.overlayDescription }}</p>
+            <h4 class="text-xl font-bold mb-4">{{ $t(`project.${project.key}.title`) }}</h4>
+            <p class="text-sm mb-4 opacity-90">{{ $t(`project.${project.key}.overlayDescription`) }}</p>
 
             <div class="project-stats mb-4">
-                <div v-for="stat in project.stats" :key="stat.text" class="project-stat">
+                <div v-for="(stat, index) in project.stats" :key="index" class="project-stat">
                     <svg class="project-stat-icon" fill="currentColor" viewBox="0 0 20 20">
                         <path :d="stat.iconPath" :fill-rule="stat.fillRule" :clip-rule="stat.clipRule"></path>
                     </svg>
-                    <span class="text-sm">{{ stat.text }}</span>
+                    <span class="text-sm">{{ t(`project.${project.key}.stats.${index + 1}`) }}</span>
                 </div>
             </div>
 
@@ -40,12 +39,11 @@
 
             <a :href="project.buttonLink"
                 class="bg-white text-black px-4 py-2 rounded font-medium text-sm hover:bg-gray-100 transition-colors inline-block">
-                {{ project.buttonText }}
+                {{ t(`projects.projectSeeMoreButton`) }}
             </a>
         </div>
     </div>
 </template>
-
 <script setup>
 defineProps({
     project: {
@@ -53,6 +51,8 @@ defineProps({
         required: true,
     },
 });
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <style scoped>

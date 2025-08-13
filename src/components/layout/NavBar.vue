@@ -7,11 +7,37 @@
                 </div>
 
                 <!-- Desktop nav -->
-                <div class="hidden md:flex space-x-8 text-sm font-medium">
-                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">Home</a>
-                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">About</a>
-                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">Work</a>
-                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">Contact</a>
+                <div class="hidden md:flex space-x-8 text-sm font-medium items-center">
+                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home')
+                    }}</a>
+                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about')
+                    }}</a>
+                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work')
+                    }}</a>
+                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact')
+                    }}</a>
+
+                    <div class="language-selector" @click.away="closeDropdown">
+                        <button class="language-button" @click="toggleDropdown">
+                            <span>{{ selectedLanguage.name }}</span>
+                            <svg class="dropdown-arrow" :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor">
+                                <polyline points="6,9 12,15 18,9" />
+                            </svg>
+                        </button>
+
+                        <div class="language-dropdown" :class="{ 'dropdown-open': dropdownOpen }">
+                            <div class="language-option" v-for="language in languages" :key="language.code"
+                                :class="{ 'selected': language.code === selectedLanguage.code }"
+                                @click="selectLanguage(language)">
+                                <span>{{ language.name }}</span>
+                                <svg v-if="language.code === selectedLanguage.code" class="check-icon"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polyline points="20,6 9,17 4,12" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Burger avec animation -->
@@ -28,21 +54,59 @@
             <transition name="menu">
                 <div v-show="isOpen" class="md:hidden mobile-menu">
                     <div class="flex flex-col items-center gap-4 mt-4 text-sm font-medium p-4 rounded">
-                            <a href="#home" @click="isOpen = false" class="menu-item">Home</a>
+                        <a href="#home" @click="isOpen = false" class="menu-item">Home</a>
                         <a href="#about" @click="isOpen = false" class="menu-item">About</a>
                         <a href="#work" @click="isOpen = false" class="menu-item">Work</a>
                         <a href="#contact" @click="isOpen = false" class="menu-item">Contact</a>
+
+                        <!-- Language selector mobile -->
+                        <div class="mobile-language-selector">
+                            <div class="language-option mobile">
+                          
+                                <span>Français</span>
+                            </div>
+                            <div class="language-option mobile">
+                               
+                                <span>English</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </transition>
         </div>
     </nav>
 </template>
-
 <script setup>
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const isOpen = ref(false)
+const { locale, t } = useI18n()
+
+const dropdownOpen = ref(false)
+
+const languages = reactive([
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'en', name: 'English', flag: '🇺🇸' }
+])
+
+const selectedLanguage = ref(languages[0])
+
+const toggleDropdown = () => {
+    dropdownOpen.value = !dropdownOpen.value
+}
+
+const closeDropdown = () => {
+    dropdownOpen.value = false
+}
+
+const selectLanguage = (language) => {
+    selectedLanguage.value = language
+    dropdownOpen.value = false
+    console.log('Langue sélectionnée:', language.code)
+    locale.value = language.code;
+    
+}
 </script>
 
 <style scoped>
@@ -50,6 +114,117 @@ const isOpen = ref(false)
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.language-selector {
+    position: relative;
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+}
+
+.language-button:hover {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.language-icon {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2;
+}
+
+.dropdown-arrow {
+    width: 14px;
+    height: 14px;
+    stroke-width: 2;
+    transition: transform 0.3s ease;
+}
+
+.language-selector:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.language-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px) scale(0.95);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    min-width: 160px;
+}
+
+.language-selector:hover .language-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    position: relative;
+    overflow: hidden;
+}
+
+.language-option:hover {
+    background: rgba(0, 0, 0, 0.06);
+}
+
+.language-option:hover::before {
+    left: 100%;
+}
+
+/* Mobile Language Selector */
+.mobile-language-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.language-option.mobile {
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.language-option.mobile:hover {
+    background: rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
 }
 
 /* Animation du burger */
@@ -93,6 +268,14 @@ const isOpen = ref(false)
 
 .burger-line-3-open {
     transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.check-icon {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2;
+    color: #3b82f6;
+    margin-left: auto;
 }
 
 /* Animation du menu mobile */

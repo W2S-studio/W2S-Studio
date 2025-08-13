@@ -10,6 +10,6 @@ export default defineConfig({
   ],
   build: {
     emptyOutDir: true,
-    outDir: './root'
+    outDir: './docs'
   }
 })
