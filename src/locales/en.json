@@ -45,7 +45,7 @@
     "title2": "SOMETHING",
     "title3": "INCREDIBLE",
     "description": "Ready to push some digital boundaries? Drop us a line and let's create a website that makes people stop scrolling and start engaging.",
-    "placeholder": "your mail",
+    "placeholder": "Enter your email address",
     "button": "Start Your Project",
     "messagePlaceholder": "Send a message",
     "sendMessage": "Send",
@@ -60,6 +60,7 @@
     "description": "A showcase of digital experiences we've crafted with passion, creativity, and cutting-edge technology.",
     "noProjects": "No projects to display yet. We're working on some exciting new projects, so check back soon!",
     "contactCta": "Contact Us to Start a Project",
+    "projectSeeMoreButton": "Learn more",
     "viewAll": "View All Projects",
     "bottomCta": "Want to see your project here? Let's make it happen."
   },
@@ -88,6 +89,48 @@
       "twitter": "Twitter",
       "linkedin": "LinkedIn",
       "github": "GitHub"
+    }
+  },
+  "project": {
+    "e-commerce": {
+      "overlayDescription": "A complete e-commerce solution built for a growing fashion brand. Features include real-time inventory tracking, advanced analytics, and AI-powered product recommendations.",
+      "description": "Modern online store with seamless checkout experience and inventory management",
+      "stats": {
+        "1": "Completed in 8 weeks",
+        "2": "50K+ monthly users",
+        "3": "98.5% uptime"
+      },
+      "title": "E-Commerce Platform"
+    },
+    "portfolio": {
+      "title": "Personal Portfolio",
+      "overlayDescription": "A dynamic portfolio designed to highlight a designer’s creativity with smooth animations and responsive layouts.",
+      "description": "Stylish portfolio site showcasing a designer’s work with interactive elements",
+      "stats": {
+        "1": "Completed in 4 weeks",
+        "2": "10K+ visits",
+        "3": "99% mobile compatibility"
+      }
+    },
+    "blog-platform": {
+      "title": "Blogging Platform",
+      "overlayDescription": "A feature-rich blogging platform enabling users to create, manage, and monetize content with ease.",
+      "description": "Robust blog system with user authentication and content management",
+      "stats": {
+        "1": "Completed in 6 weeks",
+        "2": "20K+ posts",
+        "3": "95% user satisfaction"
+      }
+    },
+    "dashboard": {
+      "title": "Analytics Dashboard",
+      "overlayDescription": "A powerful analytics tool providing real-time data visualization and customizable reports.",
+      "description": "Interactive dashboard for real-time business analytics and reporting",
+      "stats": {
+        "1": "Completed in 10 weeks",
+        "2": "30K+ data points",
+        "3": "99.9% data accuracy"
+      }
     }
   }
 }
