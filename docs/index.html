@@ -3,24 +3,53 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./assets/Icon-WLFae4Pp.jpg" />
+  <link rel="icon" type="image/jpeg" href="./assets/Icon-WLFae4Pp.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W2S Studio</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      functionality_storage: 'denied',
+      personalization_storage: 'denied',
+      security_storage: 'granted'
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X3CRVM124"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-6X3CRVM124', { anonymize_ip: true });
+  </script>
 
   <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="4aeb49a5-ee9c-4770-994c-9c7aefba8743"
     data-blockingmode="auto" data-framework="javascript" type="text/javascript">
     </script>
 
-  <script type="text/plain" data-cookieconsent="statistics" async
-    src="https://www.googletagmanager.com/gtag/js?id=G-6X3CRVM124">
-  </script>
-  <script data-cookieconsent="statistics">
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-6X3CRVM124', { anonymize_ip: true });
-  </script>
+  <script>
+    function updateGcmFromCookiebot() {
+      if (!window.Cookiebot || !Cookiebot.consent) return;
+      const c = Cookiebot.consent;
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>W2S Studio</title>
+      gtag('consent', 'update', {
+        ad_user_data: c.marketing ? 'granted' : 'denied',
+        ad_personalization: c.marketing ? 'granted' : 'denied',
+        ad_storage: c.marketing ? 'granted' : 'denied',
+        analytics_storage: c.statistics ? 'granted' : 'denied',
+        functionality_storage: c.preferences ? 'granted' : 'denied',
+        personalization_storage: c.preferences ? 'granted' : 'denied',
+        security_storage: 'granted'
+      });
+    }
+
+    window.addEventListener('CookiebotOnConsentReady', updateGcmFromCookiebot, { once: true });
+    window.addEventListener('CookiebotOnAccept', updateGcmFromCookiebot);
+    window.addEventListener('CookiebotOnDecline', updateGcmFromCookiebot);
+  </script>
   <script type="module" crossorigin src="./assets/index-CDpm-HTS.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-CjsQU27v.css">
 </head>
