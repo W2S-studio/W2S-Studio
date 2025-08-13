@@ -25,7 +25,7 @@
                             </svg>
                         </button>
 
-                        <div v-if="dropdownOpen" class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
+                        <div v-if="dropdownOpen" ref="languageDropdown" class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
                             :class="{ 'scale-100 opacity-100': dropdownOpen, 'scale-95 opacity-0': !dropdownOpen }">
                             <div class="flex flex-col">
                                 <div class="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors hover:bg-black/5 relative"
@@ -103,20 +103,22 @@
     </nav>
 </template>
 <script setup>
-import { ref, reactive } from 'vue'
+import { onClickOutside } from '@vueuse/core'
+import { ref, reactive, useTemplateRef } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const isOpen = ref(false)
-const { locale, t } = useI18n()
+const isOpen = ref(false);
+const languageDropdownRef = useTemplateRef('languageDropdown');
+const { locale, t } = useI18n();
 
-const dropdownOpen = ref(false)
+const dropdownOpen = ref(false);
 
 const languages = reactive([
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'en', name: 'English', flag: '🇺🇸' }
-])
+]);
 
-const selectedLanguage = ref(languages[0])
+const selectedLanguage = ref(languages[0]);
 
 const toggleDropdown = () => {
     console.log('Toggle dropdown', dropdownOpen.value)
@@ -133,6 +135,8 @@ const selectLanguage = (language) => {
     console.log('Langue sélectionnée:', language.code)
     locale.value = language.code;
 }
+
+onClickOutside(languageDropdownRef, closeDropdown);
 </script>
 
 <style scoped>
