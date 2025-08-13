@@ -1,78 +1,104 @@
 <template>
-    <nav class="fixed top-0 w-full z-50 nav-blur">
+    <nav class="fixed top-0 w-full z-50 backdrop-blur-xl bg-white/90 border-b border-black/5">
         <div class="max-w-7xl mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
-                <div class="logo-text text-3xl text-black cursor-pointer">
+                <div class="text-3xl text-black cursor-pointer select-none">
                     w2s<span class="text-gray-400">.</span>
                 </div>
 
                 <!-- Desktop nav -->
-                <div class="hidden md:flex space-x-8 text-sm font-medium items-center">
-                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home')
-                    }}</a>
-                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about')
-                    }}</a>
-                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work')
-                    }}</a>
-                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact')
-                    }}</a>
+                <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
+                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
+                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
+                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
 
-                    <div class="language-selector" @click.away="closeDropdown">
-                        <button class="language-button" @click="toggleDropdown">
-                            <span>{{ selectedLanguage.name }}</span>
-                            <svg class="dropdown-arrow" :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24"
+                    <div class="relative">
+                        <button 
+                            class="flex items-center gap-1.5 px-3 py-2 bg-black/5 border border-black/10 text-sm font-medium text-gray-700 cursor-pointer transition-all backdrop-blur-sm rounded"
+                            @click="toggleDropdown"
+                        >
+                            <span>{{ selectedLanguage.code }}</span>
+                            <svg class="w-3.5 h-3.5 transition-transform duration-300" :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor">
                                 <polyline points="6,9 12,15 18,9" />
                             </svg>
                         </button>
 
-                        <div class="language-dropdown" :class="{ 'dropdown-open': dropdownOpen }">
-                            <div class="language-option" v-for="language in languages" :key="language.code"
-                                :class="{ 'selected': language.code === selectedLanguage.code }"
-                                @click="selectLanguage(language)">
-                                <span>{{ language.name }}</span>
-                                <svg v-if="language.code === selectedLanguage.code" class="check-icon"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <polyline points="20,6 9,17 4,12" />
-                                </svg>
+                        <div v-if="dropdownOpen" class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
+                            :class="{ 'scale-100 opacity-100': dropdownOpen, 'scale-95 opacity-0': !dropdownOpen }">
+                            <div class="flex flex-col">
+                                <div class="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors hover:bg-black/5 relative"
+                                    v-for="language in languages" :key="language.code"
+                                    :class="{ 'font-semibold': language.code === selectedLanguage.code }"
+                                    @click="selectLanguage(language)">
+                                    <span>{{ language.name }}</span>
+                                    <svg v-if="language.code === selectedLanguage.code" class="absolute right-2 w-4 h-4 stroke-2 text-blue-400"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <polyline points="20,6 9,17 4,12" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Burger avec animation -->
-                <button class="md:hidden burger-button" @click="isOpen = !isOpen">
-                    <div class="burger-icon">
-                        <span class="burger-line" :class="{ 'burger-line-1-open': isOpen }"></span>
-                        <span class="burger-line" :class="{ 'burger-line-2-open': isOpen }"></span>
-                        <span class="burger-line" :class="{ 'burger-line-3-open': isOpen }"></span>
+                <button class="md:hidden p-2 rounded transition hover:bg-black/5" @click="isOpen = !isOpen">
+                    <div class="w-6 h-4 flex flex-col justify-between relative">
+                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                              :class="{ 'rotate-45 translate-y-1.5': isOpen }"></span>
+                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                              :class="{ 'opacity-0 scale-x-0': isOpen }"></span>
+                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                              :class="{ '-rotate-45 -translate-y-1.5': isOpen }"></span>
                     </div>
                 </button>
             </div>
 
             <!-- Mobile menu avec transition -->
-            <transition name="menu">
-                <div v-show="isOpen" class="md:hidden mobile-menu">
-                    <div class="flex flex-col items-center gap-4 mt-4 text-sm font-medium p-4 rounded">
-                        <a href="#home" @click="isOpen = false" class="menu-item">Home</a>
-                        <a href="#about" @click="isOpen = false" class="menu-item">About</a>
-                        <a href="#work" @click="isOpen = false" class="menu-item">Work</a>
-                        <a href="#contact" @click="isOpen = false" class="menu-item">Contact</a>
-
-                        <!-- Language selector mobile -->
-                        <div class="mobile-language-selector">
-                            <div class="language-option mobile">
-                          
-                                <span>Français</span>
+            <Teleport to="body">
+                <transition name="menu">
+                    <div
+                        v-show="isOpen"
+                        class="fixed inset-0 z-[100] bg-gray-100 flex flex-col"
+                    >
+                        <div class="flex justify-between items-center px-6 py-4">
+                            <div class="text-3xl text-black cursor-pointer font select-none">
+                                w2s<span class="text-gray-400">.</span>
                             </div>
-                            <div class="language-option mobile">
-                               
-                                <span>English</span>
+                            <button class="p-2 rounded transition hover:bg-black/5" @click="isOpen = false">
+                                <div class="w-6 h-4 flex flex-col justify-between relative">
+                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                                        :class="{ 'rotate-45 translate-y-1.5': isOpen }"></span>
+                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                                        :class="{ 'opacity-0 scale-x-0': isOpen }"></span>
+                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
+                                        :class="{ '-rotate-45 -translate-y-1.5': isOpen }"></span>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
+                            <a href="#home" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.home') }}</a>
+                            <a href="#about" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.about') }}</a>
+                            <a href="#work" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.work') }}</a>
+                            <a href="#contact" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.contact') }}</a>
+                        </div>
+                        <div class="flex flex-col gap-2 w-full mt-4 pt-4 border-t border-black/10 px-6 pb-6">
+                            <div class="flex items-center justify-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors bg-black/5 hover:bg-black/9 relative"
+                                v-for="language in languages" :key="language.code"
+                                :class="{ 'font-semibold': language.code === selectedLanguage.code }"
+                                @click="selectLanguage(language)">
+                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectLanguage.code}">{{ language.name }}</span>
+                                <svg v-if="language.code === selectedLanguage.code" class="absolute right-2 w-4 h-4 stroke-2 text-blue-400"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polyline points="20,6 9,17 4,12" />
+                                </svg>
                             </div>
                         </div>
                     </div>
-                </div>
-            </transition>
+                </transition>
+            </Teleport>
         </div>
     </nav>
 </template>
@@ -93,6 +119,7 @@ const languages = reactive([
 const selectedLanguage = ref(languages[0])
 
 const toggleDropdown = () => {
+    console.log('Toggle dropdown', dropdownOpen.value)
     dropdownOpen.value = !dropdownOpen.value
 }
 
@@ -105,128 +132,10 @@ const selectLanguage = (language) => {
     dropdownOpen.value = false
     console.log('Langue sélectionnée:', language.code)
     locale.value = language.code;
-    
 }
 </script>
 
 <style scoped>
-.nav-blur {
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.language-selector {
-    position: relative;
-}
-
-.language-button {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 8px 12px;
-    background: rgba(0, 0, 0, 0.03);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 14px;
-    font-weight: 500;
-    color: #374151;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    backdrop-filter: blur(10px);
-}
-
-.language-button:hover {
-    background: rgba(0, 0, 0, 0.08);
-    border-color: rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.language-icon {
-    width: 16px;
-    height: 16px;
-    stroke-width: 2;
-}
-
-.dropdown-arrow {
-    width: 14px;
-    height: 14px;
-    stroke-width: 2;
-    transition: transform 0.3s ease;
-}
-
-.language-selector:hover .dropdown-arrow {
-    transform: rotate(180deg);
-}
-
-.language-dropdown {
-    position: absolute;
-    top: calc(100% + 8px);
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 8px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px) scale(0.95);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    min-width: 160px;
-}
-
-.language-selector:hover .language-dropdown {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0) scale(1);
-}
-
-.language-option {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 12px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-size: 14px;
-    font-weight: 500;
-    color: #374151;
-    position: relative;
-    overflow: hidden;
-}
-
-.language-option:hover {
-    background: rgba(0, 0, 0, 0.06);
-}
-
-.language-option:hover::before {
-    left: 100%;
-}
-
-/* Mobile Language Selector */
-.mobile-language-selector {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    margin-top: 16px;
-    padding-top: 16px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.language-option.mobile {
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.03);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
-}
-
-.language-option.mobile:hover {
-    background: rgba(0, 0, 0, 0.08);
-    transform: translateY(-1px);
-}
-
 /* Animation du burger */
 .burger-button {
     padding: 8px;
@@ -270,19 +179,6 @@ const selectLanguage = (language) => {
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
-.check-icon {
-    width: 16px;
-    height: 16px;
-    stroke-width: 2;
-    color: #3b82f6;
-    margin-left: auto;
-}
-
-/* Animation du menu mobile */
-.mobile-menu {
-    overflow: hidden;
-}
-
 .menu-enter-active,
 .menu-leave-active {
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -290,58 +186,25 @@ const selectLanguage = (language) => {
 
 .menu-enter-from {
     opacity: 0;
-    transform: translateY(-20px) scale(0.95);
-    max-height: 0;
+    transform: translateX(-20px) scale(1);
+    max-width: 0;
 }
 
 .menu-enter-to {
     opacity: 1;
-    transform: translateY(0) scale(1);
-    max-height: 300px;
+    transform: translateX(0) scale(1);
+    max-width: 100vw;
 }
 
 .menu-leave-from {
     opacity: 1;
-    transform: translateY(0) scale(1);
-    max-height: 300px;
+    transform: translateX(0) scale(1);
+    max-width: 100vw;
 }
 
 .menu-leave-to {
     opacity: 0;
-    transform: translateY(-10px) scale(0.98);
-    max-height: 0;
-}
-
-/* Animation des items du menu */
-.menu-item {
-    transition: all 0.2s ease;
-    padding: 8px 16px;
-    border-radius: 6px;
-    position: relative;
-    overflow: hidden;
-}
-
-.menu-item:hover {
-    background: rgba(0, 0, 0, 0.05);
-    transform: translateY(-1px);
-}
-
-.menu-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    transition: left 0.5s ease;
-}
-
-.menu-item:hover::before {
-    left: 100%;
-}
-
-[v-cloak] {
-    display: none;
+    transform: translateX(-10px) scale(1);
+    max-width: 0;
 }
 </style>
