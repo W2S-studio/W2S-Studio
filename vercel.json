@@ -4,6 +4,6 @@
     { "src": "/(.*)", "status": 308, "headers": { "Location": "https://w2s-studio.ca/$1" } }
   ],
   "functions": {
-    "api/*.ts": { "maxDuration": 10, "memory": 128 }
+    "api/**/*.{js,mjs}": { "maxDuration": 10, "memory": 128 }
   }
 }
