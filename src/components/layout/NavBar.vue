@@ -44,14 +44,11 @@
                 </div>
 
                 <!-- Burger avec animation -->
-                <button class="md:hidden p-2 rounded transition hover:bg-black/5" @click="isOpen = !isOpen">
-                    <div class="w-6 h-4 flex flex-col justify-between relative">
-                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                              :class="{ 'rotate-45 translate-y-1.5': isOpen }"></span>
-                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                              :class="{ 'opacity-0 scale-x-0': isOpen }"></span>
-                        <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                              :class="{ '-rotate-45 -translate-y-1.5': isOpen }"></span>
+                <button class="md:hidden burger-button" @click="isOpen = !isOpen">
+                    <div class="burger-icon">
+                        <span class="burger-line" :class="{ 'burger-line-1-open': isOpen }"></span>
+                        <span class="burger-line" :class="{ 'burger-line-2-open': isOpen }"></span>
+                        <span class="burger-line" :class="{ 'burger-line-3-open': isOpen }"></span>
                     </div>
                 </button>
             </div>
@@ -61,23 +58,8 @@
                 <transition name="menu">
                     <div
                         v-show="isOpen"
-                        class="fixed inset-0 z-[100] bg-gray-100 flex flex-col"
+                        class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17"
                     >
-                        <div class="flex justify-between items-center px-6 py-4">
-                            <div class="text-3xl text-black cursor-pointer font select-none">
-                                w2s<span class="text-gray-400">.</span>
-                            </div>
-                            <button class="p-2 rounded transition hover:bg-black/5" @click="isOpen = false">
-                                <div class="w-6 h-4 flex flex-col justify-between relative">
-                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                                        :class="{ 'rotate-45 translate-y-1.5': isOpen }"></span>
-                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                                        :class="{ 'opacity-0 scale-x-0': isOpen }"></span>
-                                    <span class="block h-0.5 w-full bg-black rounded transition-all duration-300"
-                                        :class="{ '-rotate-45 -translate-y-1.5': isOpen }"></span>
-                                </div>
-                            </button>
-                        </div>
                         <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
                             <a href="#home" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.home') }}</a>
                             <a href="#about" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.about') }}</a>
@@ -103,7 +85,7 @@
     </nav>
 </template>
 <script setup>
-import { onClickOutside } from '@vueuse/core'
+import { onClickOutside, useWindowSize } from '@vueuse/core'
 import { ref, reactive, useTemplateRef, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
@@ -154,6 +136,13 @@ watch(isOpen, (value) => {
         document.body.style.right = '';
         document.body.style.width = '';
         window.scrollTo(0, scrollY);
+    }
+});
+
+const { width } = useWindowSize();
+watch(width, (w) => {
+    if (w >= 768) {
+        isOpen.value = false
     }
 });
 </script>
