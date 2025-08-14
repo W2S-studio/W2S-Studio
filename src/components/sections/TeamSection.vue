@@ -24,7 +24,7 @@
                      data-aos-delay="300">
                     <div class="relative mb-6">
                         <div class="w-48 h-48 mx-auto bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center hover:scale-105 transition-all duration-300 p-4">
-                            <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/498248454_4100022080312971_4962353199711191064_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iQG42HhW-X8Q7kNvwEjo9WF&_nc_oc=AdlNjD8nDhAGx_5wAeZlWhZxtttvjimFKqjQYgPc6Fb0Utj0SW5R1KnZU56ZD_S-UC8&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=wEjkGfLkHKbGZXLOrEdREA&oh=00_AfWQNS_2RR-XGwFZx7MFX4VRkXVLaD9Sktb63-M6yrVRgg&oe=689AC504"
+                            <img src="/src/assets/williamImage.jpg"
                                 alt="William Beaudin" class="profile-image" />
                         </div>
                     </div>
