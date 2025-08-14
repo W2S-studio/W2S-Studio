@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "/api/:path*"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/:path*",
+            "destination": "https://w2s-studio.ca/:path*",
+            "permanent": true
+        }
+    ],
+    "functions": {
+        "api/*.ts": {
+            "maxDuration": 10,
+            "memory": 128
+        }
+    }
+}

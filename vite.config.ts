@@ -10,6 +10,13 @@ export default defineConfig({
   ],
   build: {
     emptyOutDir: true,
-    outDir: './docs'
+    outDir: './docs',
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    }
   }
 })
