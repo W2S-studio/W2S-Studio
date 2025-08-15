@@ -1,10 +1,10 @@
 {
-  "\u0000E:/W2S/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-es-import": [
+  "\u0000/home/runner/work/W2S-Studio/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-es-import": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "\u0000E:/W2S/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-module": [
+  "\u0000/home/runner/work/W2S-Studio/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-module": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -174,7 +174,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/cards/HomeProjectCard.vue?vue&type=style&index=0&scoped=0f029e64&lang.css": [
+  "src/components/cards/HomeProjectCard.vue?vue&type=style&index=0&scoped=8c32dce3&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -184,7 +184,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/cards/HomeServiceCard.vue?vue&type=style&index=0&scoped=e00fe55e&lang.css": [
+  "src/components/cards/HomeServiceCard.vue?vue&type=style&index=0&scoped=5652784d&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -199,7 +199,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=262209e0&lang.css": [
+  "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=f57cf5df&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -219,7 +219,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=616f7f01&lang.css": [
+  "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=1c5bf949&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -229,7 +229,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/sections/HeroSection.vue?vue&type=style&index=0&scoped=10368618&lang.css": [
+  "src/components/sections/HeroSection.vue?vue&type=style&index=0&scoped=298ae4ef&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -239,7 +239,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/sections/ProjectSection.vue?vue&type=style&index=0&scoped=51e99979&lang.css": [
+  "src/components/sections/ProjectSection.vue?vue&type=style&index=0&scoped=829fe2ce&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
@@ -254,7 +254,7 @@
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
   ],
-  "src/components/sections/TeamSection.vue?vue&type=style&index=0&scoped=21080b7c&lang.css": [
+  "src/components/sections/TeamSection.vue?vue&type=style&index=0&scoped=3ef8d3c7&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg"
