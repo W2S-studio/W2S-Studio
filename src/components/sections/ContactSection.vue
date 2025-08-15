@@ -47,6 +47,7 @@
               </div>
 
               <div
+                v-if="isClient"
                 class="cf-turnstile my-2"
                 data-sitekey="0x4AAAAAABrc5ID8zvgNqLFP"
                 data-callback="__tsResolved"
@@ -67,11 +68,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onBeforeUnmount } from 'vue'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useI18n } from 'vue-i18n'
 import Button from '../ui/Button.vue'
 
 const { t } = useI18n()
+
+const isClient = ref(!import.meta.env.SSR)
 
 const email = ref('')
 const subject = ref('')
@@ -98,18 +101,31 @@ const validateEmail = () => {
   }
 }
 
-// @ts-ignore
-window.__tsResolved = (t: string) => { token.value = t }
+onMounted(() => {
+  if (!import.meta.env.SSR) {
+    // @ts-ignore
+    window.__tsResolved = (t: string) => { 
+      token.value = t 
+    }
+  }
+})
 
 onBeforeUnmount(() => {
-  // @ts-ignore
-  window.turnstile?.reset?.()
-  token.value = ''
+  if (!import.meta.env.SSR) {
+    // @ts-ignore
+    window.turnstile?.reset?.()
+    token.value = ''
+  }
 })
 
 async function sendMessage() {
   if (!isValidEmail.value || !subject.value || !message.value) return
-  if (!token.value) { alert('Please complete the verification.'); return }
+  if (!token.value) { 
+    if (!import.meta.env.SSR) {
+      alert('Please complete the verification.')
+    }
+    return 
+  }
 
   sending.value = true
   try {
@@ -126,16 +142,24 @@ async function sendMessage() {
     const data = await res.json().catch(() => ({}))
     if (!res.ok || !data?.ok) throw new Error(data?.error || 'Failed to send')
 
-    alert('Message sent!')
+    if (!import.meta.env.SSR) {
+      alert('Message sent!')
+    }
+    
     email.value = ''
     subject.value = ''
     message.value = ''
     showForm.value = false
     token.value = ''
-    // @ts-ignore
-    window.turnstile?.reset?.()
+    
+    if (!import.meta.env.SSR) {
+      // @ts-ignore
+      window.turnstile?.reset?.()
+    }
   } catch (e) {
-    alert('Error sending message. Please try again later.')
+    if (!import.meta.env.SSR) {
+      alert('Error sending message. Please try again later.')
+    }
   } finally {
     sending.value = false
   }

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://w2s-studio.github.io/W2S-Studio/sitemap.xml
+Sitemap: https://w2s-studio.ca/sitemap.xml

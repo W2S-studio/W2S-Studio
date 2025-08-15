@@ -1,0 +1,302 @@
+{
+  "\u0000E:/W2S/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-es-import": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "\u0000E:/W2S/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-module": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "\u0000plugin-vue:export-helper": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "\u0000vite/modulepreload-polyfill.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "index.html": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@intlify/core-base/dist/core-base.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@intlify/message-compiler/dist/message-compiler.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@intlify/shared/dist/shared.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@unhead/vue/dist/client.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vueuse/core/index.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/@vueuse/shared/index.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/aos/dist/aos.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/aos/dist/aos.js": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/hookable/dist/index.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/unhead/dist/client.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/unhead/dist/shared/unhead.BpRRHAhY.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/unhead/dist/shared/unhead.DH45uomy.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/vite-ssg/dist/index.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/vue-i18n/dist/vue-i18n.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "node_modules/vue-router/dist/vue-router.mjs": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/assets/Icon.jpg": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/assets/samuelImage.jpg": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/assets/williamImage.jpg": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/cards/HomeProjectCard.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/cards/HomeProjectCard.vue?vue&type=style&index=0&scoped=0f029e64&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/cards/HomeServiceCard.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/cards/HomeServiceCard.vue?vue&type=style&index=0&scoped=e00fe55e&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/layout/Footer.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/layout/NavBar.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=262209e0&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/AboutSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ContactSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ContactSection.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=616f7f01&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/HeroSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/HeroSection.vue?vue&type=style&index=0&scoped=10368618&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ProjectSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ProjectSection.vue?vue&type=style&index=0&scoped=51e99979&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/ServiceSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/TeamSection.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/sections/TeamSection.vue?vue&type=style&index=0&scoped=21080b7c&lang.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/ui/Button.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/components/views/Home.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/data/Project.ts": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/locales/en.json": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/locales/fr.json": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/main.ts": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/style.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ],
+  "src/style/global.css": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg"
+  ]
+}
