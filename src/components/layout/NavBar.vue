@@ -6,7 +6,6 @@
                     w2s<span class="text-gray-400">.</span>
                 </div>
 
-                <!-- Desktop nav -->
                 <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
                     <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
                     <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
@@ -43,7 +42,6 @@
                     </div>
                 </div>
 
-                <!-- Burger avec animation -->
                 <button class="md:hidden burger-button" @click="isOpen = !isOpen">
                     <div class="burger-icon">
                         <span class="burger-line" :class="{ 'burger-line-1-open': isOpen }"></span>
@@ -53,8 +51,7 @@
                 </button>
             </div>
 
-            <!-- Mobile menu avec transition -->
-            <Teleport to="body">
+            <Teleport v-if="isClient" to="body">
                 <transition name="menu">
                     <div
                         v-show="isOpen"
@@ -71,7 +68,7 @@
                                 v-for="language in languages" :key="language.code"
                                 :class="{ 'font-semibold': language.code === selectedLanguage.code }"
                                 @click="selectLanguage(language)">
-                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectLanguage.code}">{{ language.name }}</span>
+                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectedLanguage.code}">{{ language.name }}</span>
                                 <svg v-if="language.code === selectedLanguage.code" class="absolute right-2 w-4 h-4 stroke-2 text-blue-400"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor">
                                     <polyline points="20,6 9,17 4,12" />
@@ -86,8 +83,10 @@
 </template>
 <script setup>
 import { onClickOutside, useWindowSize } from '@vueuse/core'
-import { ref, reactive, useTemplateRef, watch } from 'vue'
+import { ref, reactive, useTemplateRef, watch, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
+
+const isClient = ref(!import.meta.env.SSR)
 
 const isOpen = ref(false);
 let scrollY = 0;
@@ -104,7 +103,9 @@ const languages = reactive([
 const selectedLanguage = ref(languages[0]);
 
 const toggleDropdown = () => {
-    console.log('Toggle dropdown', dropdownOpen.value)
+    if (!import.meta.env.SSR) {
+        console.log('Toggle dropdown', dropdownOpen.value)
+    }
     dropdownOpen.value = !dropdownOpen.value
 }
 
@@ -115,40 +116,55 @@ const closeDropdown = () => {
 const selectLanguage = (language) => {
     selectedLanguage.value = language
     dropdownOpen.value = false
-    console.log('Langue sélectionnée:', language.code)
+    if (!import.meta.env.SSR) {
+        console.log('Langue sélectionnée:', language.code)
+    }
     locale.value = language.code;
 }
 
-onClickOutside(languageDropdownRef, closeDropdown);
+onMounted(() => {
+    if (!import.meta.env.SSR) {
+        onClickOutside(languageDropdownRef, closeDropdown);
+    }
+})
 
 watch(isOpen, (value) => {
-    if (value) {
-        scrollY = window.scrollY;
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${scrollY}px`;
-        document.body.style.left = '0';
-        document.body.style.right = '0';
-        document.body.style.width = '100%';
-    } else {
-        document.body.style.position = '';
-        document.body.style.top = '';
-        document.body.style.left = '';
-        document.body.style.right = '';
-        document.body.style.width = '';
-        window.scrollTo(0, scrollY);
+    if (!import.meta.env.SSR) {
+        if (value) {
+            scrollY = window.scrollY;
+            document.body.style.position = 'fixed';
+            document.body.style.top = `-${scrollY}px`;
+            document.body.style.left = '0';
+            document.body.style.right = '0';
+            document.body.style.width = '100%';
+        } else {
+            document.body.style.position = '';
+            document.body.style.top = '';
+            document.body.style.left = '';
+            document.body.style.right = '';
+            document.body.style.width = '';
+            window.scrollTo(0, scrollY);
+        }
     }
 });
 
-const { width } = useWindowSize();
-watch(width, (w) => {
-    if (w >= 768) {
-        isOpen.value = false
+let width = ref(0)
+
+onMounted(() => {
+    if (!import.meta.env.SSR) {
+        const windowSize = useWindowSize()
+        width = windowSize.width
+        
+        watch(width, (w) => {
+            if (w >= 768) {
+                isOpen.value = false
+            }
+        });
     }
-});
+})
 </script>
 
 <style scoped>
-/* Animation du burger */
 .burger-button {
     padding: 8px;
     border-radius: 4px;
@@ -177,7 +193,6 @@ watch(width, (w) => {
     transform-origin: center;
 }
 
-/* Animation hamburger vers X */
 .burger-line-1-open {
     transform: rotate(45deg) translate(6px, 6px);
 }
