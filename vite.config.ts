@@ -5,8 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   base: './',
-  plugins: [vue(),
-  tailwindcss(),
+  plugins: [
+    vue(),
+    tailwindcss(),
   ],
   build: {
     emptyOutDir: true,

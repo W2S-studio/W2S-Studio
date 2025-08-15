@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc -b && vite-ssg build",
     "preview": "vite preview",
     "i18n": "ts-node --project tsconfig.scripts.json scripts/build-i18n.ts"
   },
@@ -18,9 +18,11 @@
   "devDependencies": {
     "@types/aos": "^3.0.7",
     "@types/node": "^24.2.1",
-    "@vercel/node": "^2.15.10",
+    "@vercel/node": "^2.3.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
+    "@vueuse/core": "^11.0.0",
+    "@vueuse/head": "^2.0.0",
     "autoprefixer": "^10.4.21",
     "dotenv": "^17.2.1",
     "postcss": "^8.5.6",
@@ -30,6 +32,7 @@
     "tsx": "^4.20.4",
     "typescript": "~5.8.3",
     "vite": "^7.1.0",
+    "vite-ssg": "^28.0.0",
     "vue-tsc": "^3.0.5"
   }
 }
