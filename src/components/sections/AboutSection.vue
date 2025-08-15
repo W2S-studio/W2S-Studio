@@ -13,11 +13,12 @@
                         data-aos-duration="700" data-aos-delay="200">
                         {{ $t('about.description') }}
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start" data-aos="fade-up"
-                        data-aos-duration="700" data-aos-delay="400">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center lg:justify-start"
+                        data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
                         <a href="#work"><Button :title="t('about.btnProcess')" :black="true" /></a>
                         <a href="#projects"><Button :title="t('about.btnWork')" :black="false" /></a>
                     </div>
+
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="0">
                     <div
