@@ -1,30 +1,23 @@
 <template>
   <button :class="[
-
-    'cursor-pointer font-semibold transition-all',
-
-    // Size
+    'cursor-pointer font-semibold transition-all box-border',
     size === 'sm' ? 'px-6 py-3 text-sm' :
-    size === 'lg' ? 'px-8 py-4 text-lg' :
-    'px-6 py-3 text-base',
+      size === 'lg' ? 'px-8 py-4 text-lg' :
+        'px-6 py-3 text-base',
 
-    // Variant
+    // Colors
     black
       ? 'bg-black text-white'
       : disableHover
-        ? 'bg-white text-black border-2 border-black'
-        : 'bg-white text-black border-2 border-black hover:bg-black hover:text-white',
+        ? 'bg-white text-black'
+        : 'bg-white text-black hover:bg-black hover:text-white',
 
-    // Hover animation
     !disableHover && 'hover-scale',
-
-    // Roundness
     round ? 'rounded-lg' : 'rounded-none'
-  ]">
+  ]" :style="{ border: '2px solid', borderColor: black ? 'transparent' : 'black' }">
     {{ title }}
   </button>
 </template>
-
 <script setup>
 /**
  * Props for the CustomButton component
