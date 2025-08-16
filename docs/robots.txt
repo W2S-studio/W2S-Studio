@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /src/assets/Icon.jpg
 
 Sitemap: https://w2s-studio.ca/sitemap.xml
