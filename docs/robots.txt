@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /favicon.ico
+Allow: /src/assets/Icon.jpg
 
 Sitemap: https://w2s-studio.ca/sitemap.xml
