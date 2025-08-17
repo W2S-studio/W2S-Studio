@@ -86,8 +86,8 @@
                  data-aos-duration="600" 
                  data-aos-delay="600">
                 <p class="text-gray-400 mb-6">{{ $t('team.cta') }}</p>
-
-                <Button class="hover:scale-105" :title="$t('team.button')" :black="false" size="lg" :disableHover="true" />
+                <a href="#contact">    <Button class="hover:scale-105" :title="$t('team.button')" :black="false" size="lg" :disableHover="true" /></a>
+            
             </div>
         </div>
     </section>
