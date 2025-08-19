@@ -1,5 +1,6 @@
 <template>
-    <section id="home" role="banner" aria-label="Hero Section" class="min-h-screen flex items-center justify-center hero-gradient relative">
+    <section id="home" role="banner" aria-label="Hero Section"
+        class="min-h-screen flex items-center justify-center hero-gradient relative">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
             <div>
                 <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 mt-20 leading-none">
@@ -10,20 +11,27 @@
             </div>
             <div class="slide-in-stagger delay-4">
                 <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-                  {{ $t('hero.description1') }}<br>
-                     {{ $t('hero.description2') }}<span class="typing-cursor font-semibold">{{ $t('hero.highlight') }}</span>
+                    {{ $t('hero.description1') }}<br>
+                    {{ $t('hero.description2') }}<span class="typing-cursor font-semibold">{{ $t('hero.highlight')
+                    }}</span>
                 </p>
 
-                <a href="#contact"><Button :title="t('hero.cta')" :black="false" size="lg" :round="true" /></a>
+                <a href="#contact"> <Button class="hover:scale-105" :title="$t('hero.cta')" :black="false" size="lg"
+                        :disableHover="true" /></a>
             </div>
         </div>
 
         <div class="absolute inset-0 overflow-hidden pointer-events-none">
-            <div class="floating-complex absolute top-20 left-10 w-20 h-20 border-2 border-white/20 rotate-45" style="animation-delay: 0s;"></div>
-            <div class="floating-complex absolute top-1/3 right-20 w-12 h-12 bg-white/10 rounded-full" style="animation-delay: -2s;"></div>
-            <div class="floating-complex absolute bottom-32 left-1/4 w-16 h-16 border-2 border-white/30 rotate-12" style="animation-delay: -4s;"></div>
-            <div class="floating-complex absolute top-1/2 left-1/2 w-8 h-8 bg-white/20" style="animation-delay: -1s;"></div>
-            <div class="floating-complex absolute bottom-40 right-1/3 w-14 h-14 border border-white/15 rounded-full" style="animation-delay: -5s;"></div>
+            <div class="floating-complex absolute top-20 left-10 w-20 h-20 border-2 border-white/20 rotate-45"
+                style="animation-delay: 0s;"></div>
+            <div class="floating-complex absolute top-1/3 right-20 w-12 h-12 bg-white/10 rounded-full"
+                style="animation-delay: -2s;"></div>
+            <div class="floating-complex absolute bottom-32 left-1/4 w-16 h-16 border-2 border-white/30 rotate-12"
+                style="animation-delay: -4s;"></div>
+            <div class="floating-complex absolute top-1/2 left-1/2 w-8 h-8 bg-white/20" style="animation-delay: -1s;">
+            </div>
+            <div class="floating-complex absolute bottom-40 right-1/3 w-14 h-14 border border-white/15 rounded-full"
+                style="animation-delay: -5s;"></div>
         </div>
     </section>
 </template>
@@ -47,19 +55,20 @@ import Button from '../ui/Button.vue';
 }
 
 .hero-gradient::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.03) 50%, transparent 70%);
-  animation: shimmer 6s infinite;
-  overflow: hidden;
-  max-width: 100%;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.03) 50%, transparent 70%);
+    animation: shimmer 6s infinite;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 @keyframes shimmer {
     0% {
         transform: translateX(-100%);
     }
+
     100% {
         transform: translateX(100%);
     }
@@ -77,18 +86,23 @@ import Button from '../ui/Button.vue';
 }
 
 @keyframes floatingComplex {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0px) rotate(0deg);
         opacity: 0.7;
     }
+
     25% {
         transform: translateY(-15px) rotate(3deg);
         opacity: 0.9;
     }
+
     50% {
         transform: translateY(-10px) rotate(-2deg);
         opacity: 1;
     }
+
     75% {
         transform: translateY(-20px) rotate(4deg);
         opacity: 0.8;
