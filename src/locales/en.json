@@ -3,7 +3,7 @@
     "home": "HOME",
     "about": "ABOUT",
     "work": "WORK",
-    "contact": "CONTACT",
+    "contact": "SERVICES",
     "language": "LANGUAGE"
   },
   "hero": {
@@ -133,5 +133,13 @@
       }
     }
   },
-  "title": "W2S Studio | Creative Web Development"
+  "title": "W2S Studio | Creative Web Development",
+  "service-hero": {
+    "line1": "MODERN AND HIGH-",
+    "line2": "PERFORMANCE WEB",
+    "line3": "SERVICES",
+    "description": "Websites, applications, and digital strategies designed to generate measurable impact.",
+    "page-cat": "our services",
+    "cta": "See what we offer"
+  }
 }

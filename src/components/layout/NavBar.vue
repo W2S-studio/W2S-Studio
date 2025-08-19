@@ -7,10 +7,10 @@
                 </div>
 
                 <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
-                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
-                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
-                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
-                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
+                    <a href="" @click.prevent="$router.push('/')" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
+                    <a href="" @click.prevent="$router.push('/about')" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+                    <a href="" @click.prevent="$router.push('/projects')" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
+                    <a href="" @click.prevent="$router.push('/services')" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
 
                     <div class="relative">
                         <button 
@@ -58,10 +58,10 @@
                         class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17"
                     >
                         <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
-                            <a href="#home" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.home') }}</a>
-                            <a href="#about" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.about') }}</a>
-                            <a href="#work" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.work') }}</a>
-                            <a href="#contact" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.contact') }}</a>
+                            <a href="" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.home') }}</a>
+                            <a href="" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.about') }}</a>
+                            <a href="" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.work') }}</a>
+                            <a href="" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.contact') }}</a>
                         </div>
                         <div class="flex flex-col gap-2 w-full mt-4 pt-4 border-t border-black/10 px-6 pb-6">
                             <div class="flex items-center justify-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors bg-black/5 hover:bg-black/9 relative"

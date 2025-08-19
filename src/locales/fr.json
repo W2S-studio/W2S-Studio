@@ -3,7 +3,7 @@
     "home": "ACCUEIL",
     "about": "À PROPOS",
     "work": "PROJETS",
-    "contact": "CONTACT",
+    "contact": "SERVICES",
     "language": "LANGUE"
   },
   "hero": {
@@ -132,5 +132,13 @@
       }
     }
   },
-  "title": "W2S Studio | Développement Web créatif"
+  "title": "W2S Studio | Développement Web créatif",
+  "service-hero": {
+    "line1": "DES SERVICES WEB",
+    "line2": "MODERNES ET",
+    "line3": "PERFORMANTS",
+    "description": "Sites, applications et stratégies digitales conçus pour générer de l’impact mesurable.",
+    "page-cat": "nos services",
+    "cta": "Voir ce qu’on propose"
+  }
 }
