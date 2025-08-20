@@ -2,7 +2,7 @@
     <section id="home" role="banner" aria-label="Hero Section"
         class="min-h-screen flex items-center justify-center hero-gradient relative">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
-            <p class="text-l md:text-xl text-gray-300 text-center mt-12  leading-relaxed">{{ $t('service-hero.page-cat') }}</p>
+            <p class="text-l md:text-xl text-gray-300 text-center mt-12  leading-relaxed slide-in-stagger">{{ $t('service-hero.page-cat') }}</p>
             <div>
                 <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 mt-8 leading-none">
                     <span class="block slide-in-stagger delay-1">{{ $t('service-hero.line1') }}</span>
