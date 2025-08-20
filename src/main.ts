@@ -9,7 +9,8 @@ import './style/global.css'
 
 import en from './locales/en.json'
 import fr from './locales/fr.json'
-import { routes } from './router/routes.ts' 
+import { routes } from './router/routes.ts'
+
 const createI18nInstance = () => {
   const userLocale =
     typeof navigator !== 'undefined' && navigator.language?.startsWith('fr') ? 'fr' : 'en'
@@ -23,12 +24,24 @@ const createI18nInstance = () => {
 
 export const createApp = ViteSSG(
   App,
-  { routes }, 
+  {
+    routes,
+  
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) return savedPosition
+      if (to.hash) return { el: to.hash, top: 0 }
+      return { left: 0, top: 0 } 
+    },
+  },
   ({ app, router, isClient }) => {
     app.use(createI18nInstance())
 
     if (isClient) {
       AOS.init({ once: true, offset: -50 })
+     
+      router.afterEach(() => {
+        setTimeout(() => AOS.refreshHard(), 0)
+      })
     }
   }
 )
