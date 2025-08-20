@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-black py-16 px-6">
+    <section class="bg-black py-24 px-6">
         <div class="max-w-7xl mx-auto px-6 mb-16">
             <div class="section-reveal text-center mb-8">
                 <h2 class="text-5xl md:text-6xl font-black mb-4 leading-tight text-white" data-aos="fade-up"
