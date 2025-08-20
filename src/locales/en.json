@@ -141,5 +141,33 @@
     "description": "Websites, applications, and digital strategies designed to generate measurable impact.",
     "page-cat": "our services",
     "cta": "See what we offer"
+  },
+  "expertise": {
+    "title": "OUR EXPERTISE",
+    "title1": "OUR",
+    "title2": "EXPERTISE",
+    "description": "Complete and innovative solutions to meet all your digital challenges.",
+    "card1": {
+      "title": "Web developement",
+      "perk1": "Modern, responsive showcase sites",
+      "perk2": "Tailor-made web applications",
+      "perk3": "Custom features designed for you"
+    },
+    "card2": {
+      "title": "Web design",
+      "perk1": "User-centered UI/UX",
+      "perk2": "Interactive mockups and prototypes",
+      "perk3": "Consistent visual identity"
+    },
+    "card3": {
+      "perk1": "Regular updates and security",
+      "perk2": "SEO and performance optimization",
+      "perk3": "Ongoing technical support",
+      "title": "Maintenance and seo"
+    }
+  },
+  "why-us": {
+    "title1": "WHY",
+    "title2": "US"
   }
 }

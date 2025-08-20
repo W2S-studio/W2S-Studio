@@ -140,5 +140,32 @@
     "description": "Sites, applications et stratégies digitales conçus pour générer de l’impact mesurable.",
     "page-cat": "nos services",
     "cta": "Voir ce qu’on propose"
+  },
+  "expertise": {
+    "title": "NOTRE EXPERTISES",
+    "title1": "NOTRE",
+    "title2": "EXPERTISES",
+    "description": "Des solutions complètes et innovantes pour répondre à tous vos défis digitaux",
+    "card1": {
+      "title": "Dévelopement web",
+      "perk1": "Sites vitrines modernes & responsives",
+      "perk2": "Applications web sur mesure",
+      "perk3": "Fonctionnalités personnalisées selon vos besoins"
+    },
+    "card2": {
+      "title": "Design web",
+      "perk1": "UI/UX centré sur l’utilisateur",
+      "perk2": "Maquettes et prototypes interactifs",
+      "perk3": "Identité visuelle cohérente"
+    },
+    "card3": {
+      "title": "Maintenance et seo",
+      "perk1": "Mises à jour et sécurité régulières",
+      "perk2": "Optimisation SEO et performance",
+      "perk3": "Support technique continu"
+    }
+  },
+  "why-us": {
+    "title1": "POURQUOI"
   }
 }
