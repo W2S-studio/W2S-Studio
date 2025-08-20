@@ -189,7 +189,8 @@
     },
     "stats": {
       "stat1": "COMPROMIS",
-      "stat2": "DISPONIBILITÉ"
+      "stat2": "DISPONIBILITÉ",
+      "stat3": "COMPROMIS"
     }
   }
 }

@@ -16,7 +16,7 @@
 
                 </p>
 
-                <a href="#contact"> <Button class="hover:scale-105" :title="$t('service-hero.cta')" :black="false" size="lg"
+                <a href="#expertise"> <Button class="hover:scale-105" :title="$t('service-hero.cta')" :black="false" size="lg"
                         :disableHover="true" /></a>
             </div>
         </div>

@@ -190,7 +190,8 @@
     },
     "stats": {
       "stat1": "COMPROMISE",
-      "stat2": "AVAILABILITY"
+      "stat2": "AVAILABILITY",
+      "stat3": "COMPROMISE"
     }
   }
 }

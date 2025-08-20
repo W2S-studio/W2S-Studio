@@ -13,9 +13,11 @@
                 </p>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row max-w-7xl mx-auto px-6 items-center justify-center gap-20  ">
+
+        <div class="flex flex-col md:flex-row max-w-7xl mx-auto px-6 items-center justify-center gap-20">
+            <!-- Left side perks -->
             <div class="flex flex-col gap-10">
-                <div class="text-white flex gap-5">
+                <div class="text-white flex gap-5" data-aos="fade-right" data-aos-duration="700" data-aos-delay="0">
                     <div
                         class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-black font-semibold shrink-0">
                         1
@@ -25,9 +27,10 @@
                         <p class="text-gray-400">{{ $t('why-us.perk.perk1.description') }}</p>
                     </div>
                 </div>
-                <div class="text-white flex gap-5">
+
+                <div class="text-white flex gap-5" data-aos="fade-right" data-aos-duration="700" data-aos-delay="150">
                     <div
-                        class="w-8 h-8 font-semibold flex items-center justify-center rounded-full bg-white text-black shrink-0">
+                        class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-black font-semibold shrink-0">
                         2
                     </div>
                     <div>
@@ -35,9 +38,10 @@
                         <p class="text-gray-400">{{ $t('why-us.perk.perk2.description') }}</p>
                     </div>
                 </div>
-                <div class="text-white flex gap-5">
+
+                <div class="text-white flex gap-5" data-aos="fade-right" data-aos-duration="700" data-aos-delay="300">
                     <div
-                        class="w-8 h-8 font-semibold flex items-center justify-center rounded-full bg-white text-black shrink-0">
+                        class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-black font-semibold shrink-0">
                         3
                     </div>
                     <div>
@@ -45,9 +49,10 @@
                         <p class="text-gray-400">{{ $t('why-us.perk.perk3.description') }}</p>
                     </div>
                 </div>
-                <div class="text-white flex gap-5">
+
+                <div class="text-white flex gap-5" data-aos="fade-right" data-aos-duration="700" data-aos-delay="450">
                     <div
-                        class="w-8 h-8 font-semibold flex items-center justify-center rounded-full bg-white text-black shrink-0">
+                        class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-black font-semibold shrink-0">
                         4
                     </div>
                     <div>
@@ -56,28 +61,24 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col sm:flex-row md:flex-col gap-5 justify-center">
+
+            <!-- Right side stats -->
+            <div class="flex flex-col sm:flex-row md:flex-col gap-5 justify-center" data-aos="fade-left"
+                data-aos-duration="800" data-aos-delay="200">
                 <div>
-                    <h3 class="text-white text-6xl font-bold text-center">
-                        100%
-                    </h3>
+                    <h3 class="text-white text-6xl font-bold text-center">100%</h3>
                     <h4 class="text-gray-400 text-center text-3xl">{{ $t('why-us.stats.stat1') }}</h4>
                 </div>
                 <div>
-                    <h3 class="text-white text-6xl font-bold text-center">
-                        24/24
-                    </h3>
+                    <h3 class="text-white text-6xl font-bold text-center">24/24</h3>
                     <h4 class="text-gray-400 text-center text-3xl">{{ $t('why-us.stats.stat2') }}</h4>
                 </div>
                 <div>
-                    <h3 class="text-white text-6xl font-bold text-center">
-                        0
-                    </h3>
-                    <h4 class="text-gray-400 text-center text-3xl">{{ $t('why-us.stats.stat1') }}</h4>
+                    <h3 class="text-white text-6xl font-bold text-center">0</h3>
+                    <h4 class="text-gray-400 text-center text-3xl">{{ $t('why-us.stats.stat3') }}</h4>
                 </div>
             </div>
         </div>
-
     </section>
 </template>
 
