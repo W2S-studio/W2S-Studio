@@ -166,6 +166,30 @@
     }
   },
   "why-us": {
-    "title1": "POURQUOI"
+    "title1": "POURQUOI",
+    "description": "Studio créatif nouvellement lancé, nous apportons une vision fraîche et une passion débordante pour donner vie à vos projets digitaux.",
+    "title2": "NOUS",
+    "perk": {
+      "perk1": {
+        "title": "Vision Moderne & Fraîche",
+        "description": "Sans contraintes du passé, nous appliquons les dernières tendances et technologies avec une créativité débridée."
+      },
+      "perk2": {
+        "description": "En tant que nouveau studio, chaque client est précieux. Vous bénéficiez de notre attention complète et personnalisée.",
+        "title": "Attention Maximale"
+      },
+      "perk3": {
+        "title": "Tarifs Compétitifs",
+        "description": "Nous proposons une qualité premium à des prix accessibles pour nous faire connaître et bâtir notre réputation."
+      },
+      "perk4": {
+        "title": "Passion & Énergie",
+        "description": "Notre motivation est à son maximum. Nous mettons toute notre énergie et notre passion dans chaque projet, sans exception."
+      }
+    },
+    "stats": {
+      "stat1": "COMPROMIS",
+      "stat2": "DISPONIBILITÉ"
+    }
   }
 }

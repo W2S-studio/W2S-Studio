@@ -5,7 +5,7 @@
                 <h2 class="text-5xl md:text-6xl font-black mb-4 leading-tight text-black" data-aos="fade-up"
                     data-aos-duration="800" data-aos-delay="0">
                     {{ t('expertise.title1') }}
-                    <span class="text-gray-500">{{ t('expertise.title2') }}</span>
+                    <span class="text-gray-400">{{ t('expertise.title2') }}</span>
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="700"
                     data-aos-delay="200">

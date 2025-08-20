@@ -168,6 +168,29 @@
   },
   "why-us": {
     "title1": "WHY",
-    "title2": "US"
+    "title2": "US",
+    "description": "A newly launched creative studio, we bring a fresh vision and boundless passion to bring your digital projects to life.",
+    "perk": {
+      "perk1": {
+        "title": "Modern & Fresh Vision",
+        "description": "Free from the constraints of the past, we apply the latest trends and technologies with unbridled creativity."
+      },
+      "perk2": {
+        "title": "Dedicated Attention",
+        "description": "As a young studio, we value every client and provide complete, personalized focus on your needs."
+      },
+      "perk3": {
+        "title": "Competitive Rates",
+        "description": "We deliver premium quality at accessible prices, helping us grow our reputation while giving you exceptional value."
+      },
+      "perk4": {
+        "title": "Passion & Energy",
+        "description": "Our motivation is at its peak. We put all our energy and passion into every project, without exception."
+      }
+    },
+    "stats": {
+      "stat1": "COMPROMISE",
+      "stat2": "AVAILABILITY"
+    }
   }
 }
