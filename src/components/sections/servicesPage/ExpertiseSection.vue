@@ -1,7 +1,7 @@
 <template>
     <section class="py-16 px-6">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="section-reveal text-center mb-8">
+        <div class="max-w-7xl mx-auto px-6 mb-8">
+            <div class="section-reveal text-center mb-16">
                 <h2 class="text-5xl md:text-6xl font-black mb-4 leading-tight text-black" data-aos="fade-up"
                     data-aos-duration="800" data-aos-delay="0">
                     {{ t('expertise.title1') }}
