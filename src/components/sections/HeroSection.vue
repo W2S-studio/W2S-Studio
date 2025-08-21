@@ -3,7 +3,7 @@
         class="min-h-screen flex items-center justify-center hero-gradient relative">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
             <div>
-                <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 mt-20 leading-none">
+                <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 mt-8 leading-tight">
                     <span class="block slide-in-stagger delay-1">{{ $t('hero.line1') }}</span>
                     <span class="block slide-in-stagger delay-2 text-gradient">{{ $t('hero.line2') }}</span>
                     <span class="block slide-in-stagger delay-3">{{ $t('hero.line3') }}</span>
