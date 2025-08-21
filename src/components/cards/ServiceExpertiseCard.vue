@@ -1,5 +1,5 @@
 <template>
-    <div class="card p-5 flex flex-col gap-8 h-[400px]">
+    <div class="card p-5 flex flex-col justify-between gap-8 h-full md:w-[21.25rem] w-full ">
      
         <div class="flex flex-col gap-3">
             <slot></slot>
@@ -9,7 +9,7 @@
         </div>
 
       
-        <div class="flex flex-col gap-5 ">
+        <div class="flex flex-col gap-5  sm:h-[170px] md:h-[220px] lg:h-[170px] ">
             <div class="perk flex flex-row items-center gap-2">
                 <svg class="w-5 h-5 text-black flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -55,8 +55,6 @@ defineProps({
 <style lang="css" scoped>
 .card {
     background-color: #F2F2F2;
-    max-width: 21.25rem;
-    width: 21.25rem;
     min-width: 15rem;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
