@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="py-32 bg-white relative">
+  <section id="contact" class="py-24 px-6 bg-white relative">
     <div class="max-w-7xl mx-auto px-6">
       <div class="section-reveal text-center">
         <h2 class="text-5xl md:text-7xl font-black mb-8 leading-tight" data-aos="fade-up" data-aos-duration="800"
