@@ -3,7 +3,7 @@
     "home": "HOME",
     "about": "ABOUT",
     "work": "WORK",
-    "contact": "CONTACT",
+    "contact": "SERVICES",
     "language": "LANGUAGE"
   },
   "hero": {
@@ -133,5 +133,65 @@
       }
     }
   },
-  "title": "W2S Studio | Creative Web Development"
+  "title": "W2S Studio | Creative Web Development",
+  "service-hero": {
+    "line1": "FAST &",
+    "line2": "MORDERN",
+    "line3": "WEB SERVICES",
+    "description": "Websites, applications, and digital strategies designed to generate measurable impact.",
+    "page-cat": "our services",
+    "cta": "See what we offer"
+  },
+  "expertise": {
+    "title": "OUR EXPERTISE",
+    "title1": "OUR",
+    "title2": "EXPERTISE",
+    "description": "Complete and innovative solutions to meet all your digital challenges.",
+    "card1": {
+      "title": "Web developement",
+      "perk1": "Modern, responsive showcase sites",
+      "perk2": "Tailor-made web applications",
+      "perk3": "Custom features designed for you"
+    },
+    "card2": {
+      "title": "Web design",
+      "perk1": "User-centered UI/UX",
+      "perk2": "Interactive mockups and prototypes",
+      "perk3": "Consistent visual identity"
+    },
+    "card3": {
+      "perk1": "Regular updates and security",
+      "perk2": "SEO and performance optimization",
+      "perk3": "Ongoing technical support",
+      "title": "Maintenance and seo"
+    }
+  },
+  "why-us": {
+    "title1": "WHY",
+    "title2": "US",
+    "description": "A newly launched creative studio, we bring a fresh vision and boundless passion to bring your digital projects to life.",
+    "perk": {
+      "perk1": {
+        "title": "Modern & Fresh Vision",
+        "description": "Free from the constraints of the past, we apply the latest trends and technologies with unbridled creativity."
+      },
+      "perk2": {
+        "title": "Dedicated Attention",
+        "description": "As a young studio, we value every client and provide complete, personalized focus on your needs."
+      },
+      "perk3": {
+        "title": "Competitive Rates",
+        "description": "We deliver premium quality at accessible prices, helping us grow our reputation while giving you exceptional value."
+      },
+      "perk4": {
+        "title": "Passion & Energy",
+        "description": "Our motivation is at its peak. We put all our energy and passion into every project, without exception."
+      }
+    },
+    "stats": {
+      "stat1": "MOTIVATION",
+      "stat2": "AVAILABILITY",
+      "stat3": "COMPROMISE"
+    }
+  }
 }

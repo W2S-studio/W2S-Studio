@@ -1,15 +1,12 @@
 <template>
-    <main>
-        <NavBar />
+        <NavBar/>
         <HeroSection />
         <AboutSection />
         <ServiceSection />
         <ProjectSection />
         <TeamSection />
         <ContactSection />
-
         <Footer />
-    </main>
 </template>
 
 <script setup>
