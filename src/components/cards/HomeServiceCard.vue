@@ -1,5 +1,5 @@
 <template>
-    <div class="sleek-card p-8 h-[250]">
+    <div class="sleek-card p-8 h-full">
         <div class="w-12 h-12 bg-white mb-6 flex items-center justify-center">
            <slot/>
         </div>
