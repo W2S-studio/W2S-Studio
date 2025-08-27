@@ -19,7 +19,24 @@
     "title3": "ICI.",
     "description": "Studio web qui mise sur l'audace digitale. Chaque site est conçu pour surprendre et faire dire : « comment ils ont fait ça ? »",
     "btnProcess": "Notre méthode",
-    "btnWork": "Nos créations"
+    "btnWork": "Nos créations",
+    "hero": {
+      "title1": "LA NOUVELLE",
+      "title2": "GÉNÉRATION",
+      "title3": "DU WEB",
+      "description": "Étudiants passionnés, nous créons des solutions web modernes et accessibles",
+      "cta": "En savoir plus"
+    },
+    "our-tools": {
+      "title1": "NOS",
+      "title2": "TECHNOLOGIES",
+      "description": "Nous utilisons des outils modernes qui garantissent rapidité, fiabilité et une expérience utilisateur optimale.",
+      "card": {
+        "vite": "Déploiement rapide pour réduire vos délais et vos coûts.",
+        "vue": "Un site fluide, interactif et facile à faire évoluer avec votre entreprise.",
+        "tailwind": "Un design moderne, cohérent et parfaitement adapté à tous les écrans."
+      }
+    }
   },
   "work": {
     "title1": "CE QU'ON",

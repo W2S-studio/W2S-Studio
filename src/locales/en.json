@@ -10,7 +10,7 @@
     "line1": "WE'RE",
     "line2": "GOING TO",
     "line3": "PLAY.",
-"description": "Creative web studio building modern, custom websites that combine design, performance, and impact.",
+    "description": "Creative web studio building modern, custom websites that combine design, performance, and impact.",
     "cta": "Let's Build Something Epic"
   },
   "about": {
@@ -19,7 +19,24 @@
     "title3": "OUR MOMS.",
     "description": "We're a web development studio that believes in the power of digital play. Every website we build is an opportunity to push creative boundaries and create something that makes users go \"whoa, how'd they do that?\"",
     "btnProcess": "Our Process",
-    "btnWork": "View Our Work"
+    "btnWork": "View Our Work",
+    "hero": {
+      "title1": "THE NEW",
+      "title2": "GENERATION",
+      "title3": "OF THE WEB",
+      "description": "Passionate students, we create modern and accessible web solutions.",
+      "cta": "More about us"
+    },
+    "our-tools": {
+      "title1": "OUR",
+      "title2": "TECHNOLOGIES",
+      "description": "We use modern tools that ensure speed, reliability, and an outstanding user experience.",
+      "card": {
+        "vite": "Fast deployment that reduces both time and costs.",
+        "vue": "A smooth, interactive website that grows with your business.",
+        "tailwind": "A modern, consistent design that looks perfect on any device."
+      }
+    }
   },
   "work": {
     "title1": "WHAT WE",
