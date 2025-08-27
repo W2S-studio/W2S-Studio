@@ -1,23 +1,24 @@
 <template>
     <section id="home" role="banner" aria-label="Hero Section"
-        class="min-h-screen flex items-center justify-center hero-gradient relative">
+        class="min-h-screen flex items-center justify-center hero-gradient relative ">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
+            <p class="text-l md:text-xl text-gray-300 text-center pt-24  leading-relaxed slide-in-stagger">{{
+                $t('service-hero.page-cat') }}</p>
             <div>
                 <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 mt-8 leading-tight">
-                    <span class="block slide-in-stagger delay-1">{{ $t('hero.line1') }}</span>
-                    <span class="block slide-in-stagger delay-2 text-gradient">{{ $t('hero.line2') }}</span>
-                    <span class="block slide-in-stagger delay-3">{{ $t('hero.line3') }}</span>
+                    <span class="block slide-in-stagger delay-1">{{ $t('service-hero.line1') }}</span>
+                    <span class="block slide-in-stagger delay-2 text-gradient">{{ $t('service-hero.line2') }}</span>
+                    <span class="block slide-in-stagger delay-3 text-gradient">{{ $t('service-hero.line3') }}</span>
                 </h1>
             </div>
             <div class="slide-in-stagger delay-4">
                 <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-                    {{ $t('hero.description1') }}<br>
-                    {{ $t('hero.description2') }}<span class="typing-cursor font-semibold">{{ $t('hero.highlight')
-                    }}</span>
+                    {{ $t('service-hero.description') }}
+
                 </p>
 
-                <a href="#contact"> <Button class="hover:scale-105" :title="$t('hero.cta')" :black="false" size="lg"
-                        :disableHover="true" /></a>
+                <a href="#expertise"> <Button class="hover:scale-105 mb-12" :title="$t('service-hero.cta')" :black="false"
+                        size="lg" :disableHover="true" /></a>
             </div>
         </div>
 
@@ -39,7 +40,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
-import Button from '../ui/Button.vue';
+import Button from '../../ui/Button.vue';
 </script>
 
 <style lang="css" scoped>

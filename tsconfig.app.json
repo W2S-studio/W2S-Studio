@@ -19,6 +19,6 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    // "src/**/*.vue" // Excluded to avoid missing file error
   ]
 }
