@@ -7,24 +7,29 @@
                 </div>
 
                 <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
-                    <a href="#home" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
-                    <a href="#about" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
-                    <a href="#work" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
-                    <a href="#contact" class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
+                    <a href="" @click.prevent="$router.push('/')"
+                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
+                    <a href="" @click.prevent="$router.push('/about')"
+                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+                    <a href="" @click.prevent="$router.push('/projects')"
+                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
+                    <a href="" @click.prevent="$router.push('/services')"
+                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
 
                     <div class="relative">
-                        <button 
+                        <button
                             class="flex items-center gap-1.5 px-3 py-2 bg-black/5 border border-black/10 text-sm font-medium text-gray-700 cursor-pointer transition-all backdrop-blur-sm rounded"
-                            @click="toggleDropdown"
-                        >
+                            @click="toggleDropdown">
                             <span>{{ selectedLanguage.code }}</span>
-                            <svg class="w-3.5 h-3.5 transition-transform duration-300" :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor">
+                            <svg class="w-3.5 h-3.5 transition-transform duration-300"
+                                :class="{ 'rotate-180': dropdownOpen }" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor">
                                 <polyline points="6,9 12,15 18,9" />
                             </svg>
                         </button>
 
-                        <div v-if="dropdownOpen" ref="languageDropdown" class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
+                        <div v-if="dropdownOpen" ref="languageDropdown"
+                            class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
                             :class="{ 'scale-100 opacity-100': dropdownOpen, 'scale-95 opacity-0': !dropdownOpen }">
                             <div class="flex flex-col">
                                 <div class="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors hover:bg-black/5 relative"
@@ -32,8 +37,9 @@
                                     :class="{ 'font-semibold': language.code === selectedLanguage.code }"
                                     @click="selectLanguage(language)">
                                     <span>{{ language.name }}</span>
-                                    <svg v-if="language.code === selectedLanguage.code" class="absolute right-2 w-4 h-4 stroke-2 text-blue-400"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <svg v-if="language.code === selectedLanguage.code"
+                                        class="absolute right-2 w-4 h-4 stroke-2 text-blue-400" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor">
                                         <polyline points="20,6 9,17 4,12" />
                                     </svg>
                                 </div>
@@ -53,24 +59,38 @@
 
             <Teleport v-if="isClient" to="body">
                 <transition name="menu">
-                    <div
-                        v-show="isOpen"
-                        class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17"
-                    >
+                    <div v-show="isOpen" class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17">
                         <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
-                            <a href="#home" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.home') }}</a>
-                            <a href="#about" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.about') }}</a>
-                            <a href="#work" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.work') }}</a>
-                            <a href="#contact" @click="isOpen = false" class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">{{ $t('nav.contact') }}</a>
+                            <a href="" @click.prevent="$router.push('/'); isOpen = false"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                {{ $t('nav.home') }}
+                            </a>
+
+                            <a href="" @click.prevent="$router.push('/about'); isOpen = false"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                {{ $t('nav.about') }}
+                            </a>
+
+                            <a href="" @click.prevent="$router.push('/projects'); isOpen = false"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                {{ $t('nav.work') }}
+                            </a>
+
+                            <a href="" @click.prevent="$router.push('/services'); isOpen = false"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                {{ $t('nav.contact') }}
+                            </a>
                         </div>
                         <div class="flex flex-col gap-2 w-full mt-4 pt-4 border-t border-black/10 px-6 pb-6">
                             <div class="flex items-center justify-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors bg-black/5 hover:bg-black/9 relative"
                                 v-for="language in languages" :key="language.code"
                                 :class="{ 'font-semibold': language.code === selectedLanguage.code }"
                                 @click="selectLanguage(language)">
-                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectedLanguage.code}">{{ language.name }}</span>
-                                <svg v-if="language.code === selectedLanguage.code" class="absolute right-2 w-4 h-4 stroke-2 text-blue-400"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectedLanguage.code }">{{
+                                    language.name }}</span>
+                                <svg v-if="language.code === selectedLanguage.code"
+                                    class="absolute right-2 w-4 h-4 stroke-2 text-blue-400" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor">
                                     <polyline points="20,6 9,17 4,12" />
                                 </svg>
                             </div>
@@ -154,7 +174,7 @@ onMounted(() => {
     if (!import.meta.env.SSR) {
         const windowSize = useWindowSize()
         width = windowSize.width
-        
+
         watch(width, (w) => {
             if (w >= 768) {
                 isOpen.value = false
