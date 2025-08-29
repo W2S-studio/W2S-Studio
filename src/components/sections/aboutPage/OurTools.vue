@@ -16,8 +16,9 @@
         </div>
 
         <div class="flex flex-col md:flex-row justify-center items-center md:items-start gap-20">
-
-            <div class="flex flex-col items-center gap-6 w-[230px]">
+            <!-- Vite -->
+            <div class="flex flex-col items-center gap-6 w-[230px]" data-aos="fade-up" data-aos-duration="700"
+                data-aos-delay="200">
                 <div class="flex justify-center items-center w-30 h-30">
                     <img src="/src/assets/Vitejs-logo.svg.png" alt="vite logo"
                         class="max-w-full max-h-full object-contain">
@@ -26,7 +27,9 @@
                 <p class="text-center text-gray-600">{{ t('about.our-tools.card.vite') }}</p>
             </div>
 
-            <div class="flex flex-col items-center gap-6 w-[230px]">
+            <!-- Vue.js -->
+            <div class="flex flex-col items-center gap-6 w-[230px]" data-aos="fade-up" data-aos-duration="700"
+                data-aos-delay="400">
                 <div class="flex justify-center items-center w-30 h-30">
                     <img src="/src/assets/Vue.js_Logo_2.svg.png" alt="vue logo"
                         class="max-w-full max-h-full object-contain">
@@ -35,7 +38,9 @@
                 <p class="text-center text-gray-600">{{ t('about.our-tools.card.vue') }}</p>
             </div>
 
-            <div class="flex flex-col items-center gap-6 w-[230px]">
+            <!-- Tailwind -->
+            <div class="flex flex-col items-center gap-6 w-[230px]" data-aos="fade-up" data-aos-duration="700"
+                data-aos-delay="600">
                 <div class="flex justify-center items-center w-30 h-30">
                     <img src="/src/assets/Tailwind_CSS_Logo.svg.png" alt="tailwind logo"
                         class="max-w-full max-h-full object-contain">
@@ -43,11 +48,9 @@
                 <h3 class="text-3xl font-bold text-center min-h-[2.5rem] flex items-center">Tailwind CSS</h3>
                 <p class="text-center text-gray-600">{{ t('about.our-tools.card.tailwind') }}</p>
             </div>
-
         </div>
     </section>
 </template>
-
 <script setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()

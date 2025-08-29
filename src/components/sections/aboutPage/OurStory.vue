@@ -16,9 +16,11 @@
             </div>
 
 
-            <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end" data-aos="fade-left" data-aos-duration="800"
+                data-aos-delay="300">
                 <div class="aspect-[4/3] w-full max-w-lg">
-                    <img src="../../../assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o.jpeg" alt="our story" class="w-full h-full rounded-xl shadow-lg object-cover">
+                    <img src="../../../assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o.jpeg" alt="our story"
+                        class="w-full h-full rounded-xl shadow-lg object-cover" />
                 </div>
             </div>
 
