@@ -1,7 +1,7 @@
 <template>
     <main>
         <NavBar />
-        <Hero :text="{ title1: t('service-hero.line1'), title2: t('service-hero.line2'),title3: t('service-hero.line3'), description: t('service-hero.description'), button: t('service-hero.cta') }" />
+        <Hero :text="{ title1: t('service-hero.line1'), title2: t('service-hero.line2'),title3: t('service-hero.line3'), description: t('service-hero.description'), button: t('service-hero.cta') }" buttonHref="#expertise" />
         <Expertise />
         <WhyUsCard />
         <ContactSection />

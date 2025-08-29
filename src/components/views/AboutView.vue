@@ -7,7 +7,7 @@
             title3: t('about.hero.title3'),
             description: t('about.hero.description'),
             button: t('about.hero.cta')
-        }" />
+        }" buttonHref="#mission" />
         <OurMission />
         <OurStory/>
         <OurTools />

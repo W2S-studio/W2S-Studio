@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white  py-24 px-6">
+    <section id="mission" class="bg-white  py-24 px-6">
         <div>
             <div class="max-w-7xl mx-auto px-6 mb-8">
                 <div class="section-reveal text-center mb-16">

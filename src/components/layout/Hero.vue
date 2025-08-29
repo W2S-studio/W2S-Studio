@@ -19,8 +19,8 @@
 
                 </p>
 
-                <a href="#expertise"> <Button class="hover:scale-105 mb-12" :title="text.button"
-                        :black="false" size="lg" :disableHover="true" /></a>
+                <a :href="buttonHref"> <Button class="hover:scale-105 mb-12" :title="text.button" :black="false" size="lg"
+                        :disableHover="true" /></a>
             </div>
         </div>
 
@@ -52,6 +52,11 @@ defineProps({
         title3: String,
         description: String,
         button: String,
+    },
+
+     buttonHref: {
+        type: String,
+        default: '#contact'
     }
 
 })

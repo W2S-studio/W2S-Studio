@@ -16,7 +16,7 @@
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center lg:justify-start"
                         data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
                         <a href="#work"><Button :title="t('about.btnProcess')" :black="true" /></a>
-                        <a href="#projects"><Button :title="t('about.btnWork')" :black="false" /></a>
+                        <a href="" @click.prevent="$router.push('/services')"><Button :title="t('about.btnWork')" :black="false" /></a>
                     </div>
 
                 </div>
