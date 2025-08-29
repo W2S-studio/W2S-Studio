@@ -1,20 +1,35 @@
 <template>
     <main>
         <NavBar />
-        <section class="py-66 text-center">
-            <p>🚧</p>
-            <h1 class="text-5xl font-bold mb-4">Page Under Construction</h1>
-            <p class="text-xl text-gray-600">
-                We're working hard to bring this page to life. Please check back soon!
-            </p>
-        </section>
+        <Hero :text="{
+            title1: t('about.hero.title1'),
+            title2: t('about.hero.title2'),
+            title3: t('about.hero.title3'),
+            description: t('about.hero.description'),
+            button: t('about.hero.cta')
+        }" buttonHref="#mission" />
+        <OurMission />
+        <OurStory/>
+        <OurTools />
+        <OurTeam />
+        <ContactSection />
         <Footer />
     </main>
 </template>
 
+
 <script setup>
 import NavBar from '../layout/NavBar.vue';
 import Footer from '../layout/Footer.vue';
+import OurTools from '../sections/aboutPage/OurTools.vue'
+import Hero from '../layout/Hero.vue'
+import OurMission from '../sections/aboutPage/OurMission.vue';
+import ContactSection from '../sections/ContactSection.vue';
+import OurTeam from '../sections/TeamSection.vue'
+import OurStory from '../sections/aboutPage/OurStory.vue'
+
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <style lang="scss" scoped></style>
