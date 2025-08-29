@@ -8,7 +8,11 @@
             description: t('about.hero.description'),
             button: t('about.hero.cta')
         }" />
-        <OurTools/>
+        <OurMission />
+        <OurStory/>
+        <OurTools />
+        <OurTeam />
+        <ContactSection />
         <Footer />
     </main>
 </template>
@@ -19,6 +23,10 @@ import NavBar from '../layout/NavBar.vue';
 import Footer from '../layout/Footer.vue';
 import OurTools from '../sections/aboutPage/OurTools.vue'
 import Hero from '../layout/Hero.vue'
+import OurMission from '../sections/aboutPage/OurMission.vue';
+import ContactSection from '../sections/ContactSection.vue';
+import OurTeam from '../sections/TeamSection.vue'
+import OurStory from '../sections/aboutPage/OurStory.vue'
 
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()

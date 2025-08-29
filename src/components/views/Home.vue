@@ -9,7 +9,7 @@
         }" />
         <AboutSection />
         <ServiceSection />
-        <ProjectSection />
+        <ProjectSection :nbproject-to-show="3" />
         <TeamSection />
         <ContactSection />
         <Footer />

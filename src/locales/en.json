@@ -36,6 +36,15 @@
         "vue": "A smooth, interactive website that grows with your business.",
         "tailwind": "A modern, consistent design that looks perfect on any device."
       }
+    },
+    "our-mission": {
+      "title1": "OUR",
+      "title2": "MISSION"
+    },
+    "our-story": {
+      "title1": "OUR",
+      "title2": "STORY",
+      "description": "Nous sommes deux étudiants passionnés qui souhaitaient mettre en pratique les connaissances acquises durant notre parcours. Plutôt que de garder ça pour nous, nous avons choisi d’offrir nos services à la communauté de PME locales, qui bien souvent n’ont pas accès aux agences web traditionnelles. Notre objectif est simple : rendre le web moderne, accessible et utile à ceux qui en ont le plus besoin."
     }
   },
   "work": {
@@ -208,5 +217,12 @@
       "stat2": "AVAILABILITY",
       "stat3": "COMPROMISE"
     }
+  },
+  "project-hero": {
+    "line1": "THE WEB THAT WE",
+    "line2": "BUILD, PROJECT",
+    "line3": "AFTER PROJECT",
+    "description": "Each project is an opportunity to learn, innovate, and help a local business grow.",
+    "cta": "See our projects"
   }
 }

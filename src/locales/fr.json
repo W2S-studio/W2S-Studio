@@ -36,6 +36,15 @@
         "vue": "Un site fluide, interactif et facile à faire évoluer avec votre entreprise.",
         "tailwind": "Un design moderne, cohérent et parfaitement adapté à tous les écrans."
       }
+    },
+    "our-mission": {
+      "title1": "NOTRE",
+      "title2": "MISSION"
+    },
+    "our-story": {
+      "title1": "NOTRE",
+      "title2": "HISTOIRE",
+      "description": "Nous sommes deux étudiants passionnés qui souhaitaient mettre en pratique les connaissances acquises durant notre parcours. Plutôt que de garder ça pour nous, nous avons choisi d’offrir nos services à la communauté de PME locales, qui bien souvent n’ont pas accès aux agences web traditionnelles. Notre objectif est simple : rendre le web moderne, accessible et utile à ceux qui en ont le plus besoin."
     }
   },
   "work": {
@@ -207,5 +216,12 @@
       "stat2": "DISPONIBILITÉ",
       "stat3": "COMPROMIS"
     }
+  },
+  "project-hero": {
+    "line1": "LE WEB QUE NOUS",
+    "line2": "BÂTISSON, PROJET",
+    "line3": "APRÈS PROJET",
+    "description": "Chaque projet est une opportunité d’apprendre, d’innover et d’aider une entreprise locale à grandir.",
+    "cta": "Voir nos projets"
   }
 }
