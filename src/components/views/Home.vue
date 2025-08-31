@@ -1,5 +1,5 @@
 <template>
-        <NavBar />
+        <NavBar :active-index=0 />
         <Hero :text="{
                 title1: t('hero.line1'),
                 title2: t('hero.line2'),

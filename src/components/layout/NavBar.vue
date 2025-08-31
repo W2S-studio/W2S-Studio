@@ -8,13 +8,17 @@
 
                 <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
                     <a href="" @click.prevent="$router.push('/')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
+                        :class="['hover:text-gray-600 transition-colors cursor-pointer', { 'text-gray-600 font-bold': activeIndex == 0 }]">{{
+                        $t('nav.home') }}</a>
                     <a href="" @click.prevent="$router.push('/about')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+                        :class="['hover:text-gray-600 transition-colors cursor-pointer', { 'text-gray-600 font-bold': activeIndex == 1 }]">{{
+                        $t('nav.about') }}</a>
                     <a href="" @click.prevent="$router.push('/projects')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
+                        :class="['hover:text-gray-600 transition-colors cursor-pointer', { 'text-gray-600 font-bold': activeIndex == 2 }]">{{
+                        $t('nav.work') }}</a>
                     <a href="" @click.prevent="$router.push('/services')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
+                        :class="['hover:text-gray-600 transition-colors cursor-pointer', { 'text-gray-600 font-bold': activeIndex == 3 }]">{{
+                        $t('nav.contact') }}</a>
 
                     <div class="relative">
                         <button
@@ -62,22 +66,22 @@
                     <div v-show="isOpen" class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17">
                         <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
                             <a href="" @click.prevent="$router.push('/'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                :class="['relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5', { 'text-gray-600 font-bold': activeIndex == 0 }]">
                                 {{ $t('nav.home') }}
                             </a>
 
                             <a href="" @click.prevent="$router.push('/about'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                :class="['relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5', { 'text-gray-600 font-bold': activeIndex == 1 }]">
                                 {{ $t('nav.about') }}
                             </a>
 
                             <a href="" @click.prevent="$router.push('/projects'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                :class="['relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5', { 'text-gray-600 font-bold': activeIndex == 2 }]">
                                 {{ $t('nav.work') }}
                             </a>
 
                             <a href="" @click.prevent="$router.push('/services'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                                :class="['relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5', { 'text-gray-600 font-bold': activeIndex == 3 }]">
                                 {{ $t('nav.contact') }}
                             </a>
                         </div>
@@ -107,6 +111,15 @@ import { ref, reactive, useTemplateRef, watch, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const isClient = ref(!import.meta.env.SSR)
+
+defineProps({
+
+    activeIndex: {
+        type: Number,
+        default: -1
+    }
+
+})
 
 const isOpen = ref(false);
 let scrollY = 0;
