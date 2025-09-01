@@ -27,7 +27,7 @@ export const createApp = ViteSSG(
   {
     routes,
   
-    scrollBehavior(to, from, savedPosition) {
+    scrollBehavior(to, _from, savedPosition) {
       if (savedPosition) return savedPosition
       if (to.hash) return { el: to.hash, top: 0 }
       return { left: 0, top: 0 } 
