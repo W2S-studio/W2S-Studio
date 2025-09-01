@@ -1,8 +1,10 @@
 <template>
     <main>
-        <NavBar :active-index=2 />
-        <Hero :text="{ title1: t('project-hero.line1'), title2: t('project-hero.line2'),title3: t('project-hero.line3'), description: t('project-hero.description'), button: t('project-hero.cta') }"  buttonHref="#projects"/>
-        <ProjectSection/>
+
+        <Hero
+            :text="{ title1: t('project-hero.line1'), title2: t('project-hero.line2'), title3: t('project-hero.line3'), description: t('project-hero.description'), button: t('project-hero.cta') }"
+            buttonHref="#projects" />
+        <ProjectSection />
         <ContactSection />
         <Footer />
     </main>

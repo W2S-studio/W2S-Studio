@@ -1,18 +1,20 @@
 <template>
-        <NavBar :active-index=0 />
-        <Hero :text="{
-                title1: t('hero.line1'),
-                title2: t('hero.line2'),
-                title3: t('hero.line3'),
-                description: t('hero.description'),
-                button: t('hero.cta')
-        }" />
-        <AboutSection />
-        <ServiceSection />
-        <ProjectSection :nbproject-to-show="3" />
-        <TeamSection />
-        <ContactSection />
-        <Footer />
+        <main>
+                <Hero :text="{
+                        title1: t('hero.line1'),
+                        title2: t('hero.line2'),
+                        title3: t('hero.line3'),
+                        description: t('hero.description'),
+                        button: t('hero.cta')
+                }" />
+                <AboutSection />
+                <ServiceSection />
+                <ProjectSection :nbproject-to-show="3" />
+                <TeamSection />
+                <ContactSection />
+                <Footer />
+        </main>
+
 </template>
 
 <script setup>
