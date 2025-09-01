@@ -467,7 +467,7 @@
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
     "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
   ],
-  "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=e32a23a0&lang.css": [
+  "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=cae790fc&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg",
@@ -567,6 +567,33 @@
     "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
   ],
   "src/components/ui/Button.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg",
+    "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
+    "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
+    "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
+    "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
+  ],
+  "src/components/ui/Toast.vue": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg",
+    "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
+    "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
+    "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
+    "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
+  ],
+  "src/components/ui/Toast.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CzbZCHwN.jpg",
+    "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
+    "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
+    "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
+    "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
+  ],
+  "src/components/ui/Toast.vue?vue&type=style&index=0&scoped=31cb5763&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg",
