@@ -269,7 +269,7 @@
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
     "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
   ],
-  "src/App.vue": [
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg",
@@ -431,7 +431,7 @@
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
     "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
   ],
-  "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=80f20a03&lang.css": [
+  "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=ad0840fb&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
     "./assets/williamImage-Ce6B5cbA.jpg",
     "./assets/samuelImage-CzbZCHwN.jpg",
