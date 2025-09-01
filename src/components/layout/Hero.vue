@@ -1,22 +1,25 @@
 <template>
     <section id="home" role="banner" aria-label="Hero Section"
-        class="min-h-screen flex items-center justify-center hero-gradient relative">
+        class="min-h-screen flex items-center justify-center hero-gradient relative ">
         <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
+
             <div>
-                <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-8 mt-20 leading-none">
-                    <span class="block slide-in-stagger delay-1">{{ $t('hero.line1') }}</span>
-                    <span class="block slide-in-stagger delay-2 text-gradient">{{ $t('hero.line2') }}</span>
-                    <span class="block slide-in-stagger delay-3">{{ $t('hero.line3') }}</span>
+                <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 mt-8 leading-tight">
+                    <span class="block slide-in-stagger delay-1">{{
+                        text.title1 }}</span>
+                    <span class="block slide-in-stagger delay-2">{{
+                        text.title2 }}</span>
+                    <span class="block slide-in-stagger delay-3 ">{{
+                        text.title3 }}</span>
                 </h1>
             </div>
             <div class="slide-in-stagger delay-4">
                 <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-                    {{ $t('hero.description1') }}<br>
-                    {{ $t('hero.description2') }}<span class="typing-cursor font-semibold">{{ $t('hero.highlight')
-                    }}</span>
+                    {{ text.description }}
+
                 </p>
 
-                <a href="#contact"> <Button class="hover:scale-105" :title="$t('hero.cta')" :black="false" size="lg"
+                <a :href="buttonHref"> <Button class="hover:scale-105 mb-12" :title="text.button" :black="false" size="lg"
                         :disableHover="true" /></a>
             </div>
         </div>
@@ -40,6 +43,24 @@
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 import Button from '../ui/Button.vue';
+
+defineProps({
+
+    text: {
+        title1: String,
+        title2: String,
+        title3: String,
+        description: String,
+        button: String,
+    },
+
+     buttonHref: {
+        type: String,
+        default: '#contact'
+    }
+
+})
+
 </script>
 
 <style lang="css" scoped>

@@ -3,16 +3,14 @@
     "home": "HOME",
     "about": "ABOUT",
     "work": "WORK",
-    "contact": "CONTACT",
+    "services": "SERVICES",
     "language": "LANGUAGE"
   },
   "hero": {
     "line1": "WE'RE",
     "line2": "GOING TO",
     "line3": "PLAY.",
-    "description1": "Creative web development studio pushing digital boundaries.",
-    "description2": "We craft websites that don't just function—they ",
-    "highlight": "captivate",
+    "description": "Creative web studio building modern, custom websites that combine design, performance, and impact.",
     "cta": "Let's Build Something Epic"
   },
   "about": {
@@ -21,7 +19,33 @@
     "title3": "OUR MOMS.",
     "description": "We're a web development studio that believes in the power of digital play. Every website we build is an opportunity to push creative boundaries and create something that makes users go \"whoa, how'd they do that?\"",
     "btnProcess": "Our Process",
-    "btnWork": "View Our Work"
+    "btnWork": "View Our Work",
+    "hero": {
+      "title1": "THE NEW",
+      "title2": "GENERATION",
+      "title3": "OF THE WEB",
+      "description": "Passionate students, we create modern and accessible web solutions.",
+      "cta": "More about us"
+    },
+    "our-tools": {
+      "title1": "OUR",
+      "title2": "TECHNOLOGIES",
+      "description": "We use modern tools that ensure speed, reliability, and an outstanding user experience.",
+      "card": {
+        "vite": "Fast deployment that reduces both time and costs.",
+        "vue": "A smooth, interactive website that grows with your business.",
+        "tailwind": "A modern, consistent design that looks perfect on any device."
+      }
+    },
+    "our-mission": {
+      "title1": "OUR",
+      "title2": "MISSION"
+    },
+    "our-story": {
+      "title1": "OUR",
+      "title2": "STORY",
+      "description": "Nous sommes deux étudiants passionnés qui souhaitaient mettre en pratique les connaissances acquises durant notre parcours. Plutôt que de garder ça pour nous, nous avons choisi d’offrir nos services à la communauté de PME locales, qui bien souvent n’ont pas accès aux agences web traditionnelles. Notre objectif est simple : rendre le web moderne, accessible et utile à ceux qui en ont le plus besoin."
+    }
   },
   "work": {
     "title1": "WHAT WE",
@@ -38,7 +62,8 @@
     "webApps": {
       "title": "Web Applications",
       "description": "Complex web apps that handle your business logic with elegance and power."
-    }
+    },
+    "button": "Learn more"
   },
   "contact": {
     "title1": "LET'S BUILD",
@@ -52,7 +77,26 @@
     "subjectPlaceholder": "Subject",
     "validEmail": "Email is valid",
     "invalidEmail": "Email is invalid",
-    "sendButton": "Send Email"
+    "sendButton": "Send Email",
+    "emailError": "Please enter a valid email address",
+    "subjectError": "Subject is required",
+    "messageError": "Message is required",
+    "messageTooLong": "Message is too long (max 5000 characters)",
+    "captchaError": "Please complete the verification of the Captcha",
+    "sending": "Sending...",
+    "buttonDisabled": "Complete form to send",
+    "validationError": "Please fix the errors above",
+    "validationErrorDesc": "Make sure all fields are filled correctly",
+    "successTitle": "Message sent successfully",
+    "successMessage": "Thank you for your message. We'll get back to you soon.",
+    "errorTitle": "Failed to send message",
+    "errorMessage": "Please try again later",
+    "captchaFailedTitle": "Verification of the Captcha failed",
+    "captchaFailedMessage": "Please complete the Captcha again",
+    "badRequestTitle": "Invalid form data",
+    "badRequestMessage": "Please check your input and try again",
+    "mailgunErrorTitle": "Email service error",
+    "mailgunErrorMessage": "Our email service is temporarily unavailable"
   },
   "projects": {
     "title1": "OUR",
@@ -133,5 +177,72 @@
       }
     }
   },
-  "title": "W2S Studio | Creative Web Development"
+  "title": "W2S Studio | Creative Web Development",
+  "service-hero": {
+    "line1": "FAST &",
+    "line2": "MORDERN",
+    "line3": "WEB SERVICES",
+    "description": "Websites, applications, and digital strategies designed to generate measurable impact.",
+    "page-cat": "our services",
+    "cta": "See what we offer"
+  },
+  "expertise": {
+    "title": "OUR EXPERTISE",
+    "title1": "OUR",
+    "title2": "EXPERTISE",
+    "description": "Complete and innovative solutions to meet all your digital challenges.",
+    "card1": {
+      "title": "Web developement",
+      "perk1": "Modern, responsive showcase sites",
+      "perk2": "Tailor-made web applications",
+      "perk3": "Custom features designed for you"
+    },
+    "card2": {
+      "title": "Web design",
+      "perk1": "User-centered UI/UX",
+      "perk2": "Interactive mockups and prototypes",
+      "perk3": "Consistent visual identity"
+    },
+    "card3": {
+      "perk1": "Regular updates and security",
+      "perk2": "SEO and performance optimization",
+      "perk3": "Ongoing technical support",
+      "title": "Maintenance and seo"
+    }
+  },
+  "why-us": {
+    "title1": "WHY",
+    "title2": "US",
+    "description": "A newly launched creative studio, we bring a fresh vision and boundless passion to bring your digital projects to life.",
+    "perk": {
+      "perk1": {
+        "title": "Modern & Fresh Vision",
+        "description": "Free from the constraints of the past, we apply the latest trends and technologies with unbridled creativity."
+      },
+      "perk2": {
+        "title": "Dedicated Attention",
+        "description": "As a young studio, we value every client and provide complete, personalized focus on your needs."
+      },
+      "perk3": {
+        "title": "Competitive Rates",
+        "description": "We deliver premium quality at accessible prices, helping us grow our reputation while giving you exceptional value."
+      },
+      "perk4": {
+        "title": "Passion & Energy",
+        "description": "Our motivation is at its peak. We put all our energy and passion into every project, without exception."
+      }
+    },
+    "stats": {
+      "stat1": "MOTIVATION",
+      "stat2": "AVAILABILITY",
+      "stat3": "COMPROMISE"
+    }
+  },
+  "project-hero": {
+    "line1": "THE WEB THAT WE",
+    "line2": "BUILD, PROJECT",
+    "line3": "AFTER PROJECT",
+    "description": "Each project is an opportunity to learn, innovate, and help a local business grow.",
+    "cta": "See our projects"
+  }
 }

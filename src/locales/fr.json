@@ -3,16 +3,14 @@
     "home": "ACCUEIL",
     "about": "À PROPOS",
     "work": "PROJETS",
-    "contact": "CONTACT",
+    "services": "SERVICES",
     "language": "LANGUE"
   },
   "hero": {
     "line1": "ON VA",
     "line2": "VOUS FAIRE",
     "line3": "VIBRER.",
-    "description1": "Studio web créatif qui repousse les limites du digital.",
-    "description2": "Nos sites ne font pas que fonctionner — ils ",
-    "highlight": "marquent",
+    "description": "Studio web créatif qui conçoit des sites modernes et sur mesure alliant design, performance et impact.",
     "cta": "Créons du spectaculaire"
   },
   "about": {
@@ -21,7 +19,33 @@
     "title3": "ICI.",
     "description": "Studio web qui mise sur l'audace digitale. Chaque site est conçu pour surprendre et faire dire : « comment ils ont fait ça ? »",
     "btnProcess": "Notre méthode",
-    "btnWork": "Nos créations"
+    "btnWork": "Nos créations",
+    "hero": {
+      "title1": "LA NOUVELLE",
+      "title2": "GÉNÉRATION",
+      "title3": "DU WEB",
+      "description": "Étudiants passionnés, nous créons des solutions web modernes et accessibles",
+      "cta": "En savoir plus"
+    },
+    "our-tools": {
+      "title1": "NOS",
+      "title2": "TECHNOLOGIES",
+      "description": "Nous utilisons des outils modernes qui garantissent rapidité, fiabilité et une expérience utilisateur optimale.",
+      "card": {
+        "vite": "Déploiement rapide pour réduire vos délais et vos coûts.",
+        "vue": "Un site fluide, interactif et facile à faire évoluer avec votre entreprise.",
+        "tailwind": "Un design moderne, cohérent et parfaitement adapté à tous les écrans."
+      }
+    },
+    "our-mission": {
+      "title1": "NOTRE",
+      "title2": "MISSION"
+    },
+    "our-story": {
+      "title1": "NOTRE",
+      "title2": "HISTOIRE",
+      "description": "Nous sommes deux étudiants passionnés qui souhaitaient mettre en pratique les connaissances acquises durant notre parcours. Plutôt que de garder ça pour nous, nous avons choisi d’offrir nos services à la communauté de PME locales, qui bien souvent n’ont pas accès aux agences web traditionnelles. Notre objectif est simple : rendre le web moderne, accessible et utile à ceux qui en ont le plus besoin."
+    }
   },
   "work": {
     "title1": "CE QU'ON",
@@ -38,7 +62,8 @@
     "webApps": {
       "title": "Applications web",
       "description": "Apps complexes, élégantes et puissantes."
-    }
+    },
+    "button": "en savoir plus"
   },
   "contact": {
     "title1": "CRÉONS",
@@ -52,7 +77,26 @@
     "subjectPlaceholder": "Sujet",
     "validEmail": "Email valide",
     "invalidEmail": "Email invalide",
-    "sendButton": "Envoyer"
+    "sendButton": "Envoyer",
+    "emailError": "Veuillez entrer une adresse e-mail valide",
+    "subjectError": "Le sujet est requis",
+    "messageError": "Le message est requis",
+    "messageTooLong": "Le message est trop long (max 5000 caractères)",
+    "captchaError": "Veuillez compléter la vérification du Captcha",
+    "sending": "Envoi en cours...",
+    "buttonDisabled": "Complétez le formulaire pour envoyer",
+    "validationError": "Veuillez corriger les erreurs ci-dessus",
+    "validationErrorDesc": "Assurez-vous que tous les champs sont remplis correctement",
+    "successTitle": "Message envoyé avec succès !",
+    "successMessage": "Merci pour votre message. Nous vous répondrons bientôt.",
+    "errorTitle": "Échec de l'envoi du message",
+    "errorMessage": "Veuillez réessayer plus tard",
+    "captchaFailedTitle": "La vérification du Captcha à échoué",
+    "captchaFailedMessage": "Veuillez compléter le Captcha de nouveau",
+    "badRequestTitle": "Données du formulaires invalides",
+    "badRequestMessage": "Veuillez vérifier votre saisie et réessayer",
+    "mailgunErrorTitle": "Erreur du service e-mail",
+    "mailgunErrorMessage": "Notre service e-mail est temporairement indisponible"
   },
   "projects": {
     "title1": "NOS",
@@ -132,5 +176,72 @@
       }
     }
   },
-  "title": "W2S Studio | Développement Web créatif"
+  "title": "W2S Studio | Développement Web créatif",
+  "service-hero": {
+    "line1": "DES SERVICES WEB",
+    "line2": "MODERNES ET",
+    "line3": "PERFORMANTS",
+    "description": "Sites, applications et stratégies digitales conçus pour générer de l’impact mesurable.",
+    "page-cat": "nos services",
+    "cta": "Voir ce qu’on propose"
+  },
+  "expertise": {
+    "title": "NOTRE EXPERTISES",
+    "title1": "NOTRE",
+    "title2": "EXPERTISES",
+    "description": "Des solutions complètes et innovantes pour répondre à tous vos défis digitaux",
+    "card1": {
+      "title": "Dévelopement web",
+      "perk1": "Sites vitrines modernes & responsives",
+      "perk2": "Applications web sur mesure",
+      "perk3": "Fonctionnalités personnalisées selon vos besoins"
+    },
+    "card2": {
+      "title": "Design web",
+      "perk1": "UI/UX centré sur l’utilisateur",
+      "perk2": "Maquettes et prototypes interactifs",
+      "perk3": "Identité visuelle cohérente"
+    },
+    "card3": {
+      "title": "Maintenance et seo",
+      "perk1": "Mises à jour et sécurité régulières",
+      "perk2": "Optimisation SEO et performance",
+      "perk3": "Support technique continu"
+    }
+  },
+  "why-us": {
+    "title1": "POURQUOI",
+    "description": "Studio créatif nouvellement lancé, nous apportons une vision fraîche et une passion débordante pour donner vie à vos projets digitaux.",
+    "title2": "NOUS",
+    "perk": {
+      "perk1": {
+        "title": "Vision Moderne & Fraîche",
+        "description": "Sans contraintes du passé, nous appliquons les dernières tendances et technologies avec une créativité débridée."
+      },
+      "perk2": {
+        "description": "En tant que nouveau studio, chaque client est précieux. Vous bénéficiez de notre attention complète et personnalisée.",
+        "title": "Attention Maximale"
+      },
+      "perk3": {
+        "title": "Tarifs Compétitifs",
+        "description": "Nous proposons une qualité premium à des prix accessibles pour nous faire connaître et bâtir notre réputation."
+      },
+      "perk4": {
+        "title": "Passion & Énergie",
+        "description": "Notre motivation est à son maximum. Nous mettons toute notre énergie et notre passion dans chaque projet, sans exception."
+      }
+    },
+    "stats": {
+      "stat1": "MOTIVATION",
+      "stat2": "DISPONIBILITÉ",
+      "stat3": "COMPROMIS"
+    }
+  },
+  "project-hero": {
+    "line1": "LE WEB QUE NOUS",
+    "line2": "BÂTISSONS, PROJET",
+    "line3": "APRÈS PROJET",
+    "description": "Chaque projet est une opportunité d’apprendre, d’innover et d’aider une entreprise locale à grandir.",
+    "cta": "Voir nos projets"
+  }
 }

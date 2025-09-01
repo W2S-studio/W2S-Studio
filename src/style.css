@@ -3,3 +3,8 @@
 html, body {
   overflow-x: hidden !important;
 }
+
+.bg-gradient {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+    position: relative;
+}
