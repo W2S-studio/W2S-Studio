@@ -51,7 +51,7 @@
 
             </div>
             <div class="text-center mt-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="700">
-                <RouterLink to="/projects">
+                <RouterLink to="/services">
                     <Button class="hover:scale-105" :title="$t('work.button')" :black="false" size="lg" :disableHover="true" />
                 </RouterLink>
             </div>
