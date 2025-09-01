@@ -62,7 +62,8 @@
     "webApps": {
       "title": "Web Applications",
       "description": "Complex web apps that handle your business logic with elegance and power."
-    }
+    },
+    "button": "Learn more"
   },
   "contact": {
     "title1": "LET'S BUILD",
