@@ -1,6 +1,5 @@
 <template>
     <main>
-        <NavBar />
         <Hero :text="{
             title1: t('about.hero.title1'),
             title2: t('about.hero.title2'),

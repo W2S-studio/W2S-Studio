@@ -2,19 +2,32 @@
     <nav class="fixed top-0 w-full z-50 backdrop-blur-xl bg-white/90 border-b border-black/5">
         <div class="max-w-7xl mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
-                <div class="text-3xl text-black cursor-pointer select-none">
+              
+                <RouterLink to="/" class="text-3xl text-black cursor-pointer select-none">
                     w2s<span class="text-gray-400">.</span>
-                </div>
+                </RouterLink>
 
+   
                 <div v-if="!isOpen" class="hidden md:flex space-x-8 text-sm font-medium items-center">
-                    <a href="" @click.prevent="$router.push('/')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.home') }}</a>
-                    <a href="" @click.prevent="$router.push('/about')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
-                    <a href="" @click.prevent="$router.push('/projects')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.work') }}</a>
-                    <a href="" @click.prevent="$router.push('/services')"
-                        class="hover:text-gray-600 transition-colors cursor-pointer">{{ $t('nav.contact') }}</a>
+                    <RouterLink to="/" class="hover:text-gray-600 transition-colors cursor-pointer"
+                        active-class="text-gray-600 font-bold" exact-active-class="text-gray-600 font-bold">
+                        {{ $t('nav.home') }}
+                    </RouterLink>
+
+                    <RouterLink to="/about" class="hover:text-gray-600 transition-colors cursor-pointer"
+                        active-class="text-gray-600 font-bold">
+                        {{ $t('nav.about') }}
+                    </RouterLink>
+
+                    <RouterLink to="/projects" class="hover:text-gray-600 transition-colors cursor-pointer"
+                        active-class="text-gray-600 font-bold">
+                        {{ $t('nav.work') }}
+                    </RouterLink>
+
+                    <RouterLink to="/services" class="hover:text-gray-600 transition-colors cursor-pointer"
+                        active-class="text-gray-600 font-bold">
+                        {{ $t('nav.services') }}
+                    </RouterLink>
 
                     <div class="relative">
                         <button
@@ -32,10 +45,10 @@
                             class="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-lg border border-black/10 p-2 rounded shadow-lg min-w-[160px] z-50 transition-all"
                             :class="{ 'scale-100 opacity-100': dropdownOpen, 'scale-95 opacity-0': !dropdownOpen }">
                             <div class="flex flex-col">
-                                <div class="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors hover:bg-black/5 relative"
-                                    v-for="language in languages" :key="language.code"
-                                    :class="{ 'font-semibold': language.code === selectedLanguage.code }"
-                                    @click="selectLanguage(language)">
+                                <div v-for="language in languages" :key="language.code"
+                                    @click="selectLanguage(language)"
+                                    class="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors hover:bg-black/5 relative"
+                                    :class="{ 'font-semibold': language.code === selectedLanguage.code }">
                                     <span>{{ language.name }}</span>
                                     <svg v-if="language.code === selectedLanguage.code"
                                         class="absolute right-2 w-4 h-4 stroke-2 text-blue-400" viewBox="0 0 24 24"
@@ -48,6 +61,7 @@
                     </div>
                 </div>
 
+            
                 <button class="md:hidden burger-button" @click="isOpen = !isOpen">
                     <div class="burger-icon">
                         <span class="burger-line" :class="{ 'burger-line-1-open': isOpen }"></span>
@@ -61,33 +75,39 @@
                 <transition name="menu">
                     <div v-show="isOpen" class="fixed inset-0 z-[100] bg-gray-100 flex flex-col top-17">
                         <div class="flex flex-col items-center gap-8 flex-1 justify-center text-lg font-semibold">
-                            <a href="" @click.prevent="$router.push('/'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                            <RouterLink to="/"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5"
+                                active-class="text-gray-600 font-bold" exact-active-class="text-gray-600 font-bold"
+                                @click="isOpen = false">
                                 {{ $t('nav.home') }}
-                            </a>
+                            </RouterLink>
 
-                            <a href="" @click.prevent="$router.push('/about'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                            <RouterLink to="/about"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5"
+                                active-class="text-gray-600 font-bold" @click="isOpen = false">
                                 {{ $t('nav.about') }}
-                            </a>
+                            </RouterLink>
 
-                            <a href="" @click.prevent="$router.push('/projects'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
+                            <RouterLink to="/projects"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5"
+                                active-class="text-gray-600 font-bold" @click="isOpen = false">
                                 {{ $t('nav.work') }}
-                            </a>
+                            </RouterLink>
 
-                            <a href="" @click.prevent="$router.push('/services'); isOpen = false"
-                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5">
-                                {{ $t('nav.contact') }}
-                            </a>
+                            <RouterLink to="/services"
+                                class="relative rounded-md overflow-hidden px-2 py-4 transition-all hover:bg-black/5 hover:-translate-y-0.5"
+                                active-class="text-gray-600 font-bold" @click="isOpen = false">
+                                {{ $t('nav.services') }}
+                            </RouterLink>
                         </div>
+
                         <div class="flex flex-col gap-2 w-full mt-4 pt-4 border-t border-black/10 px-6 pb-6">
-                            <div class="flex items-center justify-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors bg-black/5 hover:bg-black/9 relative"
-                                v-for="language in languages" :key="language.code"
-                                :class="{ 'font-semibold': language.code === selectedLanguage.code }"
-                                @click="selectLanguage(language)">
-                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectedLanguage.code }">{{
-                                    language.name }}</span>
+                            <div v-for="language in languages" :key="language.code" @click="selectLanguage(language)"
+                                class="flex items-center justify-center gap-2 px-3 py-2 rounded cursor-pointer transition-colors bg-black/5 hover:bg-black/9 relative"
+                                :class="{ 'font-semibold': language.code === selectedLanguage.code }">
+                                <span class="mx-auto" :class="{ 'mr-auto': language.code === selectedLanguage.code }">
+                                    {{ language.name }}
+                                </span>
                                 <svg v-if="language.code === selectedLanguage.code"
                                     class="absolute right-2 w-4 h-4 stroke-2 text-blue-400" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor">
@@ -182,6 +202,8 @@ onMounted(() => {
         });
     }
 })
+
+
 </script>
 
 <style scoped>
