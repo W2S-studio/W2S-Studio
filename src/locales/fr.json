@@ -62,7 +62,8 @@
     "webApps": {
       "title": "Applications web",
       "description": "Apps complexes, élégantes et puissantes."
-    }
+    },
+    "button": "en savoir plus"
   },
   "contact": {
     "title1": "CRÉONS",

@@ -2,26 +2,20 @@
     <section id="work" class="py-32 bg-black relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="section-reveal text-center mb-20">
-                <h2 class="text-5xl md:text-6xl font-black text-white mb-8" 
-                    data-aos="fade-up" 
-                    data-aos-duration="800" 
+                <h2 class="text-5xl md:text-6xl font-black text-white mb-8" data-aos="fade-up" data-aos-duration="800"
                     data-aos-delay="0">
                     {{ t('work.title1') }}<br />
                     <span class="text-gray-500">{{ t('work.title2') }}</span>
                 </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto" 
-                   data-aos="fade-up" 
-                   data-aos-duration="700" 
-                   data-aos-delay="200">
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="700"
+                    data-aos-delay="200">
                     {{ t('work.description') }}
                 </p>
             </div>
 
             <div class="section-reveal grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <div data-aos="fade-up" 
-                     data-aos-duration="600" 
-                     data-aos-delay="300">
+                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                     <HomeServiceCard :text="{
                         title: t('work.customWebsites.title'),
                         description: t('work.customWebsites.description')
@@ -32,9 +26,7 @@
                     </HomeServiceCard>
                 </div>
 
-                <div data-aos="fade-up" 
-                     data-aos-duration="600" 
-                     data-aos-delay="450">
+                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
                     <HomeServiceCard :text="{
                         title: t('work.performance.title'),
                         description: t('work.performance.description')
@@ -45,9 +37,7 @@
                     </HomeServiceCard>
                 </div>
 
-                <div data-aos="fade-up" 
-                     data-aos-duration="600" 
-                     data-aos-delay="600">
+                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                     <HomeServiceCard :text="{
                         title: t('work.webApps.title'),
                         description: t('work.webApps.description')
@@ -60,6 +50,11 @@
                 </div>
 
             </div>
+            <div class="text-center mt-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="700">
+                <RouterLink to="/projects">
+                    <Button class="hover:scale-105" :title="$t('work.button')" :black="false" size="lg" :disableHover="true" />
+                </RouterLink>
+            </div>
         </div>
     </section>
 </template>
@@ -68,6 +63,7 @@
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 import HomeServiceCard from '../cards/HomeServiceCard.vue';
+import Button from '../ui/Button.vue'
 </script>
 
 <style lang="css" scoped></style>
