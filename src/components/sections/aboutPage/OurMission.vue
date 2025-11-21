@@ -10,7 +10,7 @@
                     </h2>
                     <p class="text-xl text-gray-600 max-w-3xl mx-auto mt-10" data-aos="fade-up" data-aos-duration="700"
                         data-aos-delay="200">
-                        Donner une voix digitale puissante aux entreprises locales qui font battre le cœur de notre région
+                        {{t('about.our-mission.text') }}
                     </p>
                 </div>
             </div>
