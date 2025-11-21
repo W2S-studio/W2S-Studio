@@ -143,9 +143,6 @@ const languages = reactive([
 const selectedLanguage = ref(languages[0]);
 
 const toggleDropdown = () => {
-    if (!import.meta.env.SSR) {
-        console.log('Toggle dropdown', dropdownOpen.value)
-    }
     dropdownOpen.value = !dropdownOpen.value
 }
 
@@ -156,9 +153,7 @@ const closeDropdown = () => {
 const selectLanguage = (language) => {
     selectedLanguage.value = language
     dropdownOpen.value = false
-    if (!import.meta.env.SSR) {
-        console.log('Langue sélectionnée:', language.code)
-    }
+
     locale.value = language.code;
 }
 

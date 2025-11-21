@@ -39,12 +39,13 @@
     },
     "our-mission": {
       "title1": "OUR",
-      "title2": "MISSION"
+      "title2": "MISSION",
+      "text": "Empowering the local businesses that keep our region alive with a strong digital voice."
     },
     "our-story": {
       "title1": "OUR",
       "title2": "STORY",
-      "description": "Nous sommes deux étudiants passionnés qui souhaitaient mettre en pratique les connaissances acquises durant notre parcours. Plutôt que de garder ça pour nous, nous avons choisi d’offrir nos services à la communauté de PME locales, qui bien souvent n’ont pas accès aux agences web traditionnelles. Notre objectif est simple : rendre le web moderne, accessible et utile à ceux qui en ont le plus besoin."
+      "description": "We are two passionate students who wanted to put our knowledge into practice. Instead of keeping it to ourselves, we chose to offer our services to the local small business community—who often don’t have access to traditional web agencies. Our goal is simple: to make the modern web accessible, useful, and within reach for the people who need it most."
     }
   },
   "work": {
@@ -180,7 +181,7 @@
   "title": "W2S Studio | Creative Web Development",
   "service-hero": {
     "line1": "FAST &",
-    "line2": "MORDERN",
+    "line2": "MODERN",
     "line3": "WEB SERVICES",
     "description": "Websites, applications, and digital strategies designed to generate measurable impact.",
     "page-cat": "our services",
