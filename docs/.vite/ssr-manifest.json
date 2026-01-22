@@ -1,6 +1,8 @@
 {
   "\u0000/home/runner/work/W2S-Studio/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-es-import": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -8,6 +10,8 @@
   ],
   "\u0000/home/runner/work/W2S-Studio/W2S-Studio/node_modules/aos/dist/aos.js?commonjs-module": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -15,6 +19,8 @@
   ],
   "\u0000commonjsHelpers.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -22,6 +28,8 @@
   ],
   "\u0000plugin-vue:export-helper": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -29,6 +37,8 @@
   ],
   "\u0000vite/modulepreload-polyfill.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -36,6 +46,8 @@
   ],
   "index.html": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -43,6 +55,8 @@
   ],
   "node_modules/@intlify/core-base/dist/core-base.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -50,6 +64,8 @@
   ],
   "node_modules/@intlify/message-compiler/dist/message-compiler.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -57,6 +73,8 @@
   ],
   "node_modules/@intlify/shared/dist/shared.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -64,6 +82,8 @@
   ],
   "node_modules/@unhead/vue/dist/client.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -71,6 +91,8 @@
   ],
   "node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -78,6 +100,8 @@
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -85,6 +109,8 @@
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -92,6 +118,8 @@
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -99,6 +127,8 @@
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -106,6 +136,8 @@
   ],
   "node_modules/@vueuse/core/index.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -113,6 +145,8 @@
   ],
   "node_modules/@vueuse/shared/index.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -120,6 +154,8 @@
   ],
   "node_modules/aos/dist/aos.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -127,6 +163,8 @@
   ],
   "node_modules/aos/dist/aos.js": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -134,6 +172,8 @@
   ],
   "node_modules/hookable/dist/index.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -141,6 +181,8 @@
   ],
   "node_modules/unhead/dist/client.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -148,6 +190,8 @@
   ],
   "node_modules/unhead/dist/shared/unhead.BpRRHAhY.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -155,6 +199,8 @@
   ],
   "node_modules/unhead/dist/shared/unhead.DH45uomy.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -162,6 +208,8 @@
   ],
   "node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -169,6 +217,8 @@
   ],
   "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -176,6 +226,8 @@
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -183,6 +235,8 @@
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -190,6 +244,8 @@
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -197,6 +253,8 @@
   ],
   "node_modules/vue-i18n/dist/vue-i18n.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -204,6 +262,8 @@
   ],
   "node_modules/vue-router/dist/vue-router.mjs": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -211,6 +271,8 @@
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -218,6 +280,8 @@
   ],
   "src/assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o.jpeg": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -225,6 +289,8 @@
   ],
   "src/assets/Icon.jpg": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -232,6 +298,8 @@
   ],
   "src/assets/Tailwind_CSS_Logo.svg.png": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -239,6 +307,8 @@
   ],
   "src/assets/Vitejs-logo.svg.png": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -246,6 +316,26 @@
   ],
   "src/assets/Vue.js_Logo_2.svg.png": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
+    "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
+    "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
+    "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
+    "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
+  ],
+  "src/assets/samuelImage.jpg": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
+    "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
+    "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
+    "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
+    "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
+  ],
+  "src/assets/williamImage.jpg": [
+    "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -253,6 +343,8 @@
   ],
   "src/components/cards/HomeProjectCard.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -260,6 +352,8 @@
   ],
   "src/components/cards/HomeProjectCard.vue?vue&type=style&index=0&scoped=8c32dce3&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -267,6 +361,8 @@
   ],
   "src/components/cards/HomeServiceCard.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -274,6 +370,8 @@
   ],
   "src/components/cards/HomeServiceCard.vue?vue&type=style&index=0&scoped=901d29a2&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -281,6 +379,8 @@
   ],
   "src/components/cards/ServiceExpertiseCard.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -288,6 +388,8 @@
   ],
   "src/components/cards/ServiceExpertiseCard.vue?vue&type=style&index=0&scoped=1004eca9&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -295,6 +397,8 @@
   ],
   "src/components/layout/Footer.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -302,6 +406,8 @@
   ],
   "src/components/layout/Hero.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -309,6 +415,8 @@
   ],
   "src/components/layout/Hero.vue?vue&type=style&index=0&scoped=a8d1af5d&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -316,6 +424,8 @@
   ],
   "src/components/layout/NavBar.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -323,6 +433,8 @@
   ],
   "src/components/layout/NavBar.vue?vue&type=style&index=0&scoped=b996111e&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -330,6 +442,8 @@
   ],
   "src/components/sections/AboutSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -337,6 +451,8 @@
   ],
   "src/components/sections/ContactSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -344,6 +460,8 @@
   ],
   "src/components/sections/ContactSection.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -351,6 +469,8 @@
   ],
   "src/components/sections/ContactSection.vue?vue&type=style&index=0&scoped=cae790fc&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -358,6 +478,8 @@
   ],
   "src/components/sections/ProjectSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -365,6 +487,8 @@
   ],
   "src/components/sections/ProjectSection.vue?vue&type=style&index=0&scoped=081d577d&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -372,6 +496,8 @@
   ],
   "src/components/sections/ServiceSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -379,13 +505,17 @@
   ],
   "src/components/sections/TeamSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
     "./assets/C8E1E11F-701B-4DBD-9E50-3CF3177C4813_1_102_o-1yUQe_-4.jpeg"
   ],
-  "src/components/sections/TeamSection.vue?vue&type=style&index=0&scoped=38eaa7f8&lang.css": [
+  "src/components/sections/TeamSection.vue?vue&type=style&index=0&scoped=429dea05&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -393,6 +523,8 @@
   ],
   "src/components/sections/aboutPage/OurMission.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -400,6 +532,8 @@
   ],
   "src/components/sections/aboutPage/OurStory.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -407,6 +541,8 @@
   ],
   "src/components/sections/aboutPage/OurTools.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -414,6 +550,8 @@
   ],
   "src/components/sections/servicesPage/ExpertiseSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -421,6 +559,8 @@
   ],
   "src/components/sections/servicesPage/WhyUseSection.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -428,6 +568,8 @@
   ],
   "src/components/ui/Button.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -435,6 +577,8 @@
   ],
   "src/components/ui/Toast.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -442,6 +586,8 @@
   ],
   "src/components/ui/Toast.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -449,6 +595,8 @@
   ],
   "src/components/ui/Toast.vue?vue&type=style&index=0&scoped=31cb5763&lang.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -456,6 +604,8 @@
   ],
   "src/components/views/AboutView.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -463,6 +613,8 @@
   ],
   "src/components/views/Home.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -470,6 +622,8 @@
   ],
   "src/components/views/ProjetView.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -477,6 +631,8 @@
   ],
   "src/components/views/ServicesView.vue": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -484,6 +640,8 @@
   ],
   "src/data/Project.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -491,6 +649,8 @@
   ],
   "src/locales/en.json": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -498,6 +658,8 @@
   ],
   "src/locales/fr.json": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -505,6 +667,8 @@
   ],
   "src/main.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -512,6 +676,8 @@
   ],
   "src/router/routes.ts": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -519,6 +685,8 @@
   ],
   "src/style.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
@@ -526,6 +694,8 @@
   ],
   "src/style/global.css": [
     "./assets/Icon-WLFae4Pp.jpg",
+    "./assets/williamImage-Ce6B5cbA.jpg",
+    "./assets/samuelImage-CBbDGse0.jpg",
     "./assets/Vitejs-logo.svg-DN0Kd3gY.png",
     "./assets/Vue.js_Logo_2.svg-DrX0Z5OQ.png",
     "./assets/Tailwind_CSS_Logo.svg-DC60W9RB.png",
