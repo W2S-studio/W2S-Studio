@@ -24,7 +24,7 @@
                      data-aos-delay="300">
                     <div class="relative mb-6">
                         <div class="w-48 h-48 mx-auto bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center hover:scale-105 transition-all duration-300 p-4">
-                            <img src="https://media.licdn.com/dms/image/v2/D4E03AQEhyyJEafPInw/profile-displayphoto-shrink_200_200/B4EZbfXwI2HYAY-/0/1747504268227?e=1765411200&v=beta&t=WK6xHijGWUZ3k3axqInXfv3WwP28XrKqzXcZd-KMPn8"
+                            <img src="../../assets/williamImage.jpg"
                                 alt="William Beaudin" class="profile-image" />
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                      data-aos-delay="450">
                     <div class="relative mb-6">
                         <div class="w-48 h-48 mx-auto bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center hover:scale-105 transition-all duration-300 p-4">
-                            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHdeXEenYUYow/profile-displayphoto-scale_200_200/B4EZqFZo8EHUAY-/0/1763174682767?e=1765411200&v=beta&t=AmGmJ4qqB3UoDW3cIuhkLNYg4R7ec5Lz7vM218xPv_4"
+                            <img src="../../assets/samuelImage.jpg"
                                 alt="Samuel" class="profile-image" />
                         </div>
                     </div>
